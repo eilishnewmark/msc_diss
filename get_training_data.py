@@ -2,6 +2,7 @@ from tqdm import tqdm
 import spacy
 import csv
 import re
+from unidecode import unidecode
 
 # LOAD IN SPACY MODEL
 # print("Loading model...")
@@ -113,6 +114,36 @@ def get_src_data(word_seqs_list):
             f.write(sentence + "\n")
 
 
+def remove_non_ascii(src_file, out_file):
+    with open(src_file) as f:
+        lines = f.readlines()
+
+    modified_lines = []
+    for i, line in enumerate(lines):
+        line = line.strip()
+        no_e_line = line.replace("É", "E")
+        no_foreign_chars = re.sub(r'[^a-zA-Z\' ]', 'X', no_e_line)
+        modified_lines.append(no_foreign_chars)
+
+    with open(out_file, "w") as f:
+        for line in modified_lines:
+            f.write(line + "\n")
+
+
+def clean_POS_tags(POS_file, out_file):
+    with open(POS_file, "r") as f:
+        lines = f.readlines()
+
+    modified_lines = []
+    for line in lines:
+        no_dollar = line.replace(" $ ", " XX ")
+        modified_lines.append(no_dollar)
+
+    with open(out_file, "w") as f:
+        for line in modified_lines:
+            f.write(line)
+
+
 def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):
     with open(sentences_fpath, 'r') as f:
         sentences = f.readlines()
@@ -147,23 +178,23 @@ def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):
     return all_word_seqs_fixed
 
 
-cont_poss_list = ["'s", "n't", "'ll", "'ve", "'m", "'re", "'d"]
-
-word_seqs_WHD = get_csv_as_list("seqs/word_seqs_WHD")
-token_seqs_WHD = get_csv_as_list("seqs/token_seqs_WHD")
-pos_seqs_WHD = get_csv_as_list("seqs/pos_seqs_WHD")
-
-expanded_tgts = get_target_expanded(word_seqs_WHD, token_seqs_WHD, pos_seqs_WHD)
-
-expanded_POSseqs = []
-for sentence in expanded_tgts:
-    expanded_sentence = []
-    for word in sentence:
-        for POS_tag in word:
-            expanded_sentence.append(POS_tag)
-        expanded_sentence.append("+")
-    expanded_POSseqs.append(expanded_sentence)
-
-with open("WHD_data/data/WHD_POS.txt", "w") as f:
-    for seq in expanded_POSseqs:
-        f.write(" ".join(seq) + "\n")
+# cont_poss_list = ["'s", "n't", "'ll", "'ve", "'m", "'re", "'d"]
+#
+# word_seqs_WHD = get_csv_as_list("seqs/word_seqs_WHD")
+# token_seqs_WHD = get_csv_as_list("seqs/token_seqs_WHD")
+# pos_seqs_WHD = get_csv_as_list("seqs/pos_seqs_WHD")
+#
+# expanded_tgts = get_target_expanded(word_seqs_WHD, token_seqs_WHD, pos_seqs_WHD)
+#
+# expanded_POSseqs = []
+# for sentence in expanded_tgts:
+#     expanded_sentence = []
+#     for word in sentence:
+#         for POS_tag in word:
+#             expanded_sentence.append(POS_tag)
+#         expanded_sentence.append("+")
+#     expanded_POSseqs.append(expanded_sentence)
+#
+# with open("WHD_data/data/WHD_POS.txt", "w") as f:
+#     for seq in expanded_POSseqs:
+#         f.write(" ".join(seq) + "\n")
