@@ -324,6 +324,7 @@ def get_homograph_pron_stats(phonetic_seqs, df):
             processed_preds.append((processed_pron, stresses))
         all_processed_preds.append(processed_preds)
 
+
     gt_homograph_prons = WHD['gt_homograph_pron'].tolist()
 
     fully_correct = 0
@@ -393,21 +394,131 @@ def get_homograph_pron_stats(phonetic_seqs, df):
 
     return bad_idxs, correct_pron_idxs
 
-def postprocess_preds(phonetic_seqs, df):
+
+def correct_preds(phonetic_seqs, df, homograph_dict):
     bad_idxs, only_pron_correct_idxs = get_homograph_pron_stats(phonetic_seqs, df)
     idxs = sorted(bad_idxs + only_pron_correct_idxs)
 
     with open(df, "rb") as f:
         WHD = pickle.load(f)
 
-    incorrect_WHD = WHD.iloc[idxs]
-    print(incorrect_WHD.info())
+    with open(phonetic_seqs, "r") as f:
+        seqs = f.readlines()
 
-postprocess_preds("WHD_data/data/WHD_pron.txt", "WHD_FULL.pkl")
+    gt_homograph_prons = WHD['gt_homograph_pron']
+    words = WHD['words']
+    homographs = WHD['homograph']
+
+    all_preds = []
+    for pred in seqs:
+        pred_prons = pred.rstrip().replace('_B', '+').split('+')[:-1]  # remove final empty string
+        # remove the leading and trailing blank spaces
+        pred_prons = list(map(str.strip, pred_prons))
+        all_preds.append(pred_prons)
+
+    # process the predicted pronunciations so that they are in the form ('th @@r - t ii n th', [0, 1])
+    all_processed_preds = []
+    for pred in all_preds:
+        processed_preds = []
+        for pron in pred:
+            stresses = [int(digit) for digit in re.findall(r"\d", pron)]
+            processed_pron = pron.replace("0 ", "").replace("1 ", "").replace("2 ", "").replace("3 ", "")
+            processed_preds.append((processed_pron, stresses))
+        all_processed_preds.append(processed_preds)
+
+    corrected_preds = []
+    for i, (homograph, word_seq, pred_seq, gt) in enumerate(zip(homographs, words, all_processed_preds, gt_homograph_prons)):
+        if i in idxs:
+            if len(word_seq) == len(pred_seq):
+                homograph_idx = word_seq.index(homograph)
+                pred_seq[homograph_idx] = (gt[1], gt[2])
+                corrected_preds.append(pred_seq)
+            else:
+                potential_preds = homograph_dict[homograph]
+                for pot_pred in potential_preds:
+                    pot_pred = (pot_pred[1], pot_pred[2])
+                    if pot_pred in pred_seq:
+                        homograph_idx = pred_seq.index(pot_pred)
+                        pred_seq[homograph_idx] = (gt[1], gt[2])
+                        corrected_preds.append(pred_seq)
+                        break
+                # print("\n", pred_seq)
+                # print(homograph)
+                # homograph_idx = word_seq.index(homograph)
+                # print("proposed idx: ", homograph_idx)
+                # try:
+                #     print("word to change: ", pred_seq[homograph_idx])
+                # except IndexError:
+                #     print("word to change (final idx): ", pred_seq[-1])
+                # validation = input("ok?")
+                # if validation == "y":
+                #     pred_seq[homograph_idx] = (gt[1], gt[2])
+                #     corrected_preds.append((i, pred_seq))
+                #     write.writerow(corrected_preds[-1])
+                # if validation == "n":
+                #     print((gt[1], gt[2]))
+                #     corrected_idx = int(input("corrected pred_seq idx: "))
+                #     print("word to change: ", pred_seq[corrected_idx])
+                #     pred_seq[corrected_idx] = (gt[1], gt[2])
+                #     corrected_preds.append((i, pred_seq))
+                #     write.writerow(corrected_preds[-1])
+        else:
+            corrected_preds.append(pred_seq)
+
+
+    assert len(corrected_preds) == 16102
+
+    with open("festival_analysis/corrected_preds.csv", 'w') as word:
+        # using csv.writer method from CSV package
+        write = csv.writer(word)
+        write.writerows(corrected_preds)
+
+    return corrected_preds
+
+
+get_homograph_pron_stats("WHD_data/data/WHD_corrected_pron.txt", "WHD_full.pkl")
 
 
 def find_indices(search_list, search_item):
     return [index for (index, item) in enumerate(search_list) if item == search_item]
+
+
+def postprocess_preds(corrected_preds, og_phonetic_seqs, out_file):
+    with open(og_phonetic_seqs, "r") as f:
+        phonetic_seqs = f.readlines()
+
+    restored_phonetic_seqs = []
+    for line, seq in zip(corrected_preds, phonetic_seqs):
+        seq = seq.strip()
+        split_seq = re.split(r"(\+)|(_B)", seq)
+        clean_split_seq = [i for i in split_seq if i is not None][:-1] # get rid of surplus None matches
+        clean_split_seq = list(map(str.strip, clean_split_seq)) # strip leading and trailing whitespaces from each list element
+        break_idxs = find_indices(clean_split_seq, "_B")
+        restored_line = []
+        for word_tuple in line:
+            string, stresses = word_tuple
+            split_word = string.split(" - ")
+            restored_word = ""
+            for stress, syl in zip(stresses, split_word):
+                restored_word += f"{stress}"
+                restored_word += f" {syl}"
+                restored_word += " - "
+            restored_line.append(restored_word[:-3])
+            restored_line.append("+")
+        joined_line = " ".join(restored_line)
+        split_line = re.split(r"(\+)|(_B)", joined_line)
+        clean_split_line = [i for i in split_line if i is not None][:-1]  # get rid of surplus None matches
+        clean_split_line = list(map(str.strip, clean_split_line)) # strip leading and trailing whitespaces from each list element
+        for idx in break_idxs:
+            clean_split_line[idx] = "_B"
+        restored_phonetic_seqs.append(" ".join(clean_split_line))
+
+    with open(out_file, "w") as f:
+        for line in restored_phonetic_seqs:
+            f.write(line + "\n")
+
+
+# postprocess_preds(correct_preds("WHD_data/data/WHD_pron.txt", "WHD_full.pkl", get_lex_homograph_prons_dict("unilex-rpx.out", "WHD_full.pkl")), "WHD_data/data/WHD_pron.txt", "WHD_data/data/WHD_corrected_pron.txt")
 
 
 def get_gt_homograph_prons(df, homograph_lex):
