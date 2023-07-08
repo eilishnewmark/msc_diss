@@ -136,12 +136,15 @@ def clean_POS_tags(POS_file, out_file):
 
     modified_lines = []
     for line in lines:
-        no_dollar = line.replace(" $ ", " XX ")
+        no_dollar = line.replace(" $", " XX")
         modified_lines.append(no_dollar)
 
     with open(out_file, "w") as f:
         for line in modified_lines:
             f.write(line)
+
+
+clean_POS_tags("WHD_data/data/WHD_POS.txt", "WHD_data/data/WHD_POS_clean.txt")
 
 
 def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):
