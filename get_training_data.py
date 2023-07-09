@@ -1,8 +1,7 @@
 from tqdm import tqdm
-import spacy
 import csv
 import re
-from unidecode import unidecode
+import pickle
 
 # LOAD IN SPACY MODEL
 # print("Loading model...")
@@ -101,33 +100,41 @@ def get_csv_as_list(fpath):
     return list_of_csv
 
 
-def get_src_data(word_seqs_list):
+def get_src_data(WHD_df):
+    with open(WHD_df, "rb") as df:
+        WHD = pickle.load(df)
+
+    word_seqs_list = WHD['words'].tolist()
+
     sentences = []
     for seq in word_seqs_list:
         sentence = " ".join(seq)
         sentence = sentence.upper()
         sentences.append(sentence)
     print(len(sentences))
+    input()
 
-    with open("libri960_data/test_data/src-train-test.txt", "w") as f:
+    with open("WHD_data/data/WHD_src_clean.txt", "w") as f:
         for sentence in sentences:
             f.write(sentence + "\n")
 
 
-def remove_non_ascii(src_file, out_file):
-    with open(src_file) as f:
+def remove_non_ascii(src_file):
+    with open(src_file, "r") as f:
         lines = f.readlines()
 
     modified_lines = []
     for i, line in enumerate(lines):
         line = line.strip()
         no_e_line = line.replace("É", "E")
-        no_foreign_chars = re.sub(r'[^a-zA-Z\' ]', 'X', no_e_line)
-        modified_lines.append(no_foreign_chars)
+        modified_lines.append(no_e_line)
 
-    with open(out_file, "w") as f:
+    with open("WHD_data/data/WHD_src_clean.txt", "w") as f:
         for line in modified_lines:
             f.write(line + "\n")
+
+
+remove_non_ascii("WHD_data/data/WHD_src_clean.txt")
 
 
 def clean_POS_tags(POS_file, out_file):
@@ -142,9 +149,6 @@ def clean_POS_tags(POS_file, out_file):
     with open(out_file, "w") as f:
         for line in modified_lines:
             f.write(line)
-
-
-clean_POS_tags("WHD_data/data/WHD_POS.txt", "WHD_data/data/WHD_POS_clean.txt")
 
 
 def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):

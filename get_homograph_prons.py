@@ -395,6 +395,9 @@ def get_homograph_pron_stats(phonetic_seqs, df):
     return bad_idxs, correct_pron_idxs
 
 
+get_homograph_pron_stats("WHD_data/data/WHD_pron_clean.txt", "WHD_full_clean.pkl")
+
+
 def correct_preds(phonetic_seqs, df, homograph_dict):
     bad_idxs, only_pron_correct_idxs = get_homograph_pron_stats(phonetic_seqs, df)
     idxs = sorted(bad_idxs + only_pron_correct_idxs)
@@ -598,13 +601,11 @@ def get_homograph_dist(WHD_df):
     print("no. of homographs: ", len(homographs))
     print("no. of wordids: ", len(wordids))
 
-    with open('WHD_data/inlex_wordid_counts.csv', 'w') as csv_file:
+    with open('WHD_data/clean_homograph_counts.csv', 'w') as csv_file:
         writer = csv.writer(csv_file)
-        for key, value in wordid_count.items():
+        for key, value in homograph_count.items():
             writer.writerow([key, value])
 
-
-get_homograph_dist("WHD_full.pkl")
 
 
 
