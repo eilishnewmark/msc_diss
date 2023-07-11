@@ -366,17 +366,17 @@ def get_homograph_pron_stats(phonetic_seqs, df):
     print("pronunciation incorrect: ", fully_incorrect)
     print("fully correct + fully incorrect + just pron + partial pron: ", just_pronunciation_correct + fully_incorrect + fully_correct, "\n")
 
-    # with open("festival_analysis/pronunciation_incorrect.csv", 'w') as f:
+    # with open("seq2seq_analysis/FE_POS/pronunciation_incorrect.csv", 'w') as f:
     #     # using csv.writer method from CSV package
     #     write = csv.writer(f)
     #     write.writerows(bad_preds)
     #
-    # with open("festival_analysis/just_pronunciation_correct.csv", 'w') as f:
+    # with open("seq2seq_analysis/FE_POS/just_pronunciation_correct.csv", 'w') as f:
     #     # using csv.writer method from CSV package
     #     write = csv.writer(f)
     #     write.writerows(correct_prons)
     #
-    # with open("festival_analysis/fully_correct.csv", "w") as f:
+    # with open("seq2seq_analysis/FE_POS/fully_correct.csv", "w") as f:
     #     # using csv.writer method from CSV package
     #     write = csv.writer(f)
     #     write.writerows(correct_pron_stress)
@@ -393,9 +393,6 @@ def get_homograph_pron_stats(phonetic_seqs, df):
         correct_pron_idxs.append(correct_pron_idx)
 
     return bad_idxs, correct_pron_idxs
-
-
-get_homograph_pron_stats("WHD_data/data/WHD_pron_clean.txt", "WHD_full_clean.pkl")
 
 
 def correct_preds(phonetic_seqs, df, homograph_dict):
@@ -445,26 +442,6 @@ def correct_preds(phonetic_seqs, df, homograph_dict):
                         pred_seq[homograph_idx] = (gt[1], gt[2])
                         corrected_preds.append(pred_seq)
                         break
-                # print("\n", pred_seq)
-                # print(homograph)
-                # homograph_idx = word_seq.index(homograph)
-                # print("proposed idx: ", homograph_idx)
-                # try:
-                #     print("word to change: ", pred_seq[homograph_idx])
-                # except IndexError:
-                #     print("word to change (final idx): ", pred_seq[-1])
-                # validation = input("ok?")
-                # if validation == "y":
-                #     pred_seq[homograph_idx] = (gt[1], gt[2])
-                #     corrected_preds.append((i, pred_seq))
-                #     write.writerow(corrected_preds[-1])
-                # if validation == "n":
-                #     print((gt[1], gt[2]))
-                #     corrected_idx = int(input("corrected pred_seq idx: "))
-                #     print("word to change: ", pred_seq[corrected_idx])
-                #     pred_seq[corrected_idx] = (gt[1], gt[2])
-                #     corrected_preds.append((i, pred_seq))
-                #     write.writerow(corrected_preds[-1])
         else:
             corrected_preds.append(pred_seq)
 
@@ -601,12 +578,12 @@ def get_homograph_dist(WHD_df):
     print("no. of homographs: ", len(homographs))
     print("no. of wordids: ", len(wordids))
 
-    with open('WHD_data/clean_homograph_counts.csv', 'w') as csv_file:
+    with open('WHD_data/eval_clean_homograph_counts.csv', 'w') as csv_file:
         writer = csv.writer(csv_file)
         for key, value in homograph_count.items():
             writer.writerow([key, value])
 
-
+get_homograph_dist("WHD_eval_clean.pkl")
 
 
 

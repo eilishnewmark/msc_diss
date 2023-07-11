@@ -100,7 +100,7 @@ def get_csv_as_list(fpath):
     return list_of_csv
 
 
-def get_src_data(WHD_df):
+def get_src_data(WHD_df, outfile):
     with open(WHD_df, "rb") as df:
         WHD = pickle.load(df)
 
@@ -114,12 +114,12 @@ def get_src_data(WHD_df):
     print(len(sentences))
     input()
 
-    with open("WHD_data/data/WHD_src_clean.txt", "w") as f:
+    with open(outfile, "w") as f:
         for sentence in sentences:
             f.write(sentence + "\n")
 
 
-def remove_non_ascii(src_file):
+def remove_non_ascii(src_file, outfile):
     with open(src_file, "r") as f:
         lines = f.readlines()
 
@@ -129,12 +129,25 @@ def remove_non_ascii(src_file):
         no_e_line = line.replace("É", "E")
         modified_lines.append(no_e_line)
 
-    with open("WHD_data/data/WHD_src_clean.txt", "w") as f:
+    with open(outfile, "w") as f:
         for line in modified_lines:
             f.write(line + "\n")
 
 
-remove_non_ascii("WHD_data/data/WHD_src_clean.txt")
+def get_non_ascii_lines(src_file):
+    with open(src_file, "r") as f:
+        lines = f.readlines()
+
+    no_ascii_idxs = []
+    for i, line in enumerate(lines):
+        line = line.strip()
+        no_e_line = line.replace("É", "E")
+        foreign_chars = re.search(r"[^a-zA-Z' ]", no_e_line)
+        if foreign_chars == None:
+            no_ascii_idxs.append(i)
+
+    return no_ascii_idxs
+
 
 
 def clean_POS_tags(POS_file, out_file):
