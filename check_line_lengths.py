@@ -15,4 +15,4 @@ def check_line_lengths(char_file, POS_file):
             if len(char_word) != len(POS_word.split()):
                 print("line: ", line, "chars: ", char_word, "POS: ", POS_word)
 
-check_line_lengths("WHD_data/data/WHD_src.txt", "WHD_data/data/WHD_POS.txt")
+check_line_lengths("WHD_data/data/WHD_src_eval.txt", "WHD_data/data/WHD_POS_eval.txt")

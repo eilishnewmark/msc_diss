@@ -71,21 +71,11 @@ def get_target_expanded(word_seqs, token_seqs, pos_seqs):
     return expanded_tgts
 
 
-def write_seqs_to_file(fpath_word, fpath_pos, fpath_token):
-    with open(fpath_word, 'w') as word:
+def write_to_csv(fpath, list):
+    with open(fpath, 'w') as f:
         # using csv.writer method from CSV package
-        write = csv.writer(word)
-        write.writerows(word_seqs)
-
-    with open(fpath_pos, 'w') as pos:
-        # using csv.writer method from CSV package
-        write = csv.writer(pos)
-        write.writerows(pos_seqs)
-
-    with open(fpath_token, 'w') as token:
-        # using csv.writer method from CSV package
-        write = csv.writer(token)
-        write.writerows(token_seqs)
+        write = csv.writer(f)
+        write.writerows(list)
 
 
 def get_csv_as_list(fpath):
@@ -118,6 +108,8 @@ def get_src_data(WHD_df, outfile):
         for sentence in sentences:
             f.write(sentence + "\n")
 
+# get_src_data("WHD_train_inlex.pkl", "WHD_data/data/WHD_src_train.txt")
+
 
 def remove_non_ascii(src_file, outfile):
     with open(src_file, "r") as f:
@@ -132,6 +124,9 @@ def remove_non_ascii(src_file, outfile):
     with open(outfile, "w") as f:
         for line in modified_lines:
             f.write(line + "\n")
+
+
+# remove_non_ascii("WHD_data/data/WHD_src_eval.txt", "WHD_data/data/WHD_src_eval.txt")
 
 
 def get_non_ascii_lines(src_file):
@@ -149,6 +144,18 @@ def get_non_ascii_lines(src_file):
     return no_ascii_idxs
 
 
+# get_non_ascii_lines("WHD_data/data/WHD_src_train.txt")
+
+
+def get_libri_WHD_data(filenames, output_fpath):
+    with open(output_fpath, 'w') as outfile:
+        for fname in filenames:
+            with open(fname) as infile:
+                for line in infile:
+                    outfile.write(line)
+
+get_libri_WHD_data(["libri960_data/data/tgt-train-aug.txt", "WHD_data/data/WHD_tgt_train.txt"], "libri_WHD_data/libri_WHD_tgt_train.txt")
+
 
 def clean_POS_tags(POS_file, out_file):
     with open(POS_file, "r") as f:
@@ -162,6 +169,7 @@ def clean_POS_tags(POS_file, out_file):
     with open(out_file, "w") as f:
         for line in modified_lines:
             f.write(line)
+
 
 
 def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):

@@ -3,6 +3,9 @@ import pickle
 from collections import defaultdict
 import csv
 import pandas as pd
+from matplotlib_venn import venn3
+from matplotlib import pyplot as plt
+
 
 def get_homograph_dist(WHD_df, src_fn, tgt_fn):
     with open(src_fn, "r") as f:
@@ -30,33 +33,138 @@ def get_homograph_dist(WHD_df, src_fn, tgt_fn):
                 homograph_idx = words.index(word)
                 homograph_count[word.lower()] += 1
                 homograph_lines.append(i)
-                if len(words) == len(word_prons):
-                    homograph_pron = word_prons[homograph_idx].rstrip()
-                    this_homograph_line.append(i)
-                    this_homograph_line.append(line.lower().rstrip())
-                    this_homograph_line.append(word)
-                    this_homograph_line.append(homograph_pron)
-                break
-        if this_homograph_line != []:
-            homograph_lines_prons.append(this_homograph_line)
+        #         if len(words) == len(word_prons):
+        #             homograph_pron = word_prons[homograph_idx].rstrip()
+        #             this_homograph_line.append(i)
+        #             this_homograph_line.append(line.lower().rstrip())
+        #             this_homograph_line.append(word)
+        #             this_homograph_line.append(homograph_pron)
+        #         break
+        # if this_homograph_line != []:
+        #     homograph_lines_prons.append(this_homograph_line)
 
     homograph_lines = list(set(homograph_lines))
 
-    with open('libri_analysis/libri_homograph_counts.csv', 'w') as csv_file:
-        writer = csv.writer(csv_file)
-        for key, value in homograph_count.items():
-            writer.writerow([key, value])
+    # with open('libri_analysis/libri_homograph_counts.csv', 'w') as csv_file:
+    #     writer = csv.writer(csv_file)
+    #     for key, value in homograph_count.items():
+    #         writer.writerow([key, value])
+    #
+    # with open('libri_analysis/libri_homograph_analysis.csv', 'w') as word:
+    #     # using csv.writer method from CSV package
+    #     write = csv.writer(word)
+    #     write.writerows(homograph_lines_prons)
 
-    with open('libri_analysis/libri_homograph_analysis.csv', 'w') as word:
-        # using csv.writer method from CSV package
-        write = csv.writer(word)
-        write.writerows(homograph_lines_prons)
+    # print("raw homograph counts: ", homograph_count)
+    # print("no. of lines with homographs: ", len(homograph_lines))
+    # print("no. of unique homographs in data: ", len(homograph_count.keys()))
+    # print("no. of total homographs in data: ", sum(homograph_count.values()))
+    # print("no. of word-pron aligned sentences: ", len(homograph_lines_prons))
 
-    print("raw homograph counts: ", homograph_count)
-    print("no. of lines with homographs: ", len(homograph_lines))
-    print("no. of unique homographs in data: ", len(homograph_count.keys()))
-    print("no. of total homographs in data: ", sum(homograph_count.values()))
-    print("no. of word-pron aligned sentences: ", len(homograph_lines_prons))
+    return homograph_lines
+
+
+def get_libri_train_no_homo(src_file, tgt_file, POS_file):
+
+    homograph_line_ids = get_homograph_dist("WHD_full.pkl", src_file + ".txt", tgt_file + ".txt")
+
+    with open(src_file + ".txt", "r") as src:
+        with open(tgt_file + ".txt", "r") as tgt:
+            with open(POS_file + ".txt", "r") as POS:
+                src_lines = src.readlines()
+                tgt_lines = tgt.readlines()
+                POS_lines = POS.readlines()
+
+    assert len(src_lines) == len(tgt_lines) == len(POS_lines)
+
+    # src_train = [src for i, src in enumerate(src_lines) if i not in homograph_line_ids]
+    # tgt_train = [tgt for i, tgt in enumerate(tgt_lines) if i not in homograph_line_ids]
+    # POS_train = [POS for i, POS in enumerate(POS_lines) if i not in homograph_line_ids]
+
+    src_train = []
+    tgt_train = []
+    POS_train = []
+    for i, (src, tgt, POS) in enumerate(zip(src_lines, tgt_lines, POS_lines)):
+        if i not in homograph_line_ids:
+            src_train.append(src)
+            tgt_train.append(tgt)
+            POS_train.append(POS)
+
+    assert len(src_train) == len(tgt_train) == len(POS_train)
+
+    with open(src_file + "-aug.txt", "w") as src:
+        with open(tgt_file + "-aug.txt", "w") as tgt:
+            with open(POS_file + "-aug.txt", "w") as POS:
+                for src_line, tgt_line, POS_line in zip(src_train, tgt_train, POS_train):
+                    src.write(src_line)
+                    tgt.write(tgt_line)
+                    POS.write(POS_line)
+
+
+# get_libri_train_no_homo("libri960_data/data/src-train", "libri960_data/data/tgt-train", "libri960_data/data/src-POS-train")
+
+
+def get_word_types_tokens(libri_src_file, WHD_src_file):
+    with open(libri_src_file, "r") as f:
+        lines = f.readlines()
+
+    with open(WHD_src_file, "r") as f:
+        WHD_lines = f.readlines()
+
+    homograph_line_ids = get_homograph_dist("WHD_full.pkl", libri_src_file, "libri960_data/data/tgt-train.txt")
+
+    homograph_lines = [line for i, line in enumerate(lines) if i in homograph_line_ids]
+    non_homograph_lines = [line for i, line in enumerate(lines) if i not in homograph_line_ids]
+
+    assert len(homograph_lines) == len(homograph_line_ids)
+
+    homograph_line_tokens = []
+    for line in homograph_lines:
+        words = line.rstrip().split()
+        for word in words:
+            homograph_line_tokens.append(word)
+
+    non_homograph_line_tokens = []
+    for line in non_homograph_lines:
+        words = line.rstrip().split()
+        for word in words:
+            non_homograph_line_tokens.append(word)
+
+    all_tokens = []
+    for line in lines:
+        words = line.rstrip().split()
+        for word in words:
+            all_tokens.append(word)
+
+    all_WHD_tokens = []
+    for line in WHD_lines:
+        words = line.rstrip().split()
+        for word in words:
+            all_WHD_tokens.append(word)
+
+    # print("no. of tokens in LibriSpeech training: ", len(all_tokens))
+    # print("no. of types in LibriSpeech training: ", len(list(set(all_tokens))))
+    # print("no. of tokens in homograph lines: ", len(homograph_line_tokens))
+    # print('no. of types in homograph lines: ', len(set(homograph_line_tokens)))
+    # print("no. of tokens in non-homograph lines: ", len(non_homograph_line_tokens))
+    # print('no. of types in non-homograph lines: ', len(set(non_homograph_line_tokens)))
+    # # get any type in homograph lines that isn't in training data without homograph lines
+    # print('no. of types that would be deleted from LibriSpeech training:', len(set(homograph_line_tokens) - set(non_homograph_line_tokens)))
+    # print('no. of tokens in WHD training data: ', len(all_WHD_tokens))
+    # print('no. of types in WHD training data: ', len(set(all_WHD_tokens)))
+    # print('no. of types that would be added to LibriSpeech training: ', len(set(all_WHD_tokens) - set(non_homograph_line_tokens)))
+    # print('no. of types that would be added that had been removed: ', len(set.intersection(set(all_WHD_tokens), set(homograph_line_tokens))))
+
+    homograph_line_types = set(homograph_line_tokens)
+    non_homograph_line_types = set(non_homograph_line_tokens)
+    WHD_types = set(all_WHD_tokens)
+
+    venn3([homograph_line_types, non_homograph_line_types, WHD_types], ('LS homograph line types', 'LS non-homograph line types', 'WHD types'))
+
+    plt.show()
+
+
+# get_word_types_tokens("libri960_data/data/src-train.txt", "WHD_data/data/WHD_src_train.txt")
 
 
 def get_sample(csv_file):
@@ -107,5 +215,6 @@ def get_statistics(csv_file):
     #     for sentence, homograph, pron in zip(sentences, homographs, homograph_pron):
     #         writer.writerow([sentence, homograph, pron])
 
-get_statistics("libri_analysis/libri_homograph_analysis_SAMPLE.csv")
+
+# get_statistics("libri_analysis/libri_homograph_analysis_SAMPLE.csv")
 
