@@ -2,8 +2,10 @@ from tqdm import tqdm
 import csv
 import re
 import pickle
+from unidecode import unidecode
+import spacy
 
-# LOAD IN SPACY MODEL
+# # LOAD IN SPACY MODEL
 # print("Loading model...")
 # nlp = spacy.load("en_core_web_trf")
 # print("Model loaded!")
@@ -11,6 +13,13 @@ import pickle
 # print("Loading again...")
 # nlp = en_core_web_trf.load()
 # print("Ready!")
+
+
+def write_to_csv(fpath, list):
+    with open(fpath, 'w') as f:
+        # using csv.writer method from CSV package
+        write = csv.writer(f)
+        write.writerows(list)
 
 
 def spacy_pos_tagger(input_file):
@@ -37,10 +46,17 @@ def spacy_pos_tagger(input_file):
             word_seqs.append(word_seq)
             token_seqs.append(doc_token_seq)
             pos_seqs.append(doc_pos_seq)
+
+    write_to_csv("WHD_nnvb_analysis/word_seqs", word_seqs)
+    write_to_csv("WHD_nnvb_analysis/pos_seqs", pos_seqs)
+    write_to_csv("WHD_nnvb_analysis/token_seqs", token_seqs)
+
     return word_seqs, pos_seqs, token_seqs
 
 
 def get_target_expanded(word_seqs, token_seqs, pos_seqs):
+    cont_poss_list = ["'s", "n't", "'ll", "'ve", "'m", "'re", "'d"]
+
     expanded_tgts = []
     j = 0
     for token_seq, unexpanded_seq in zip(token_seqs, pos_seqs):
@@ -69,13 +85,6 @@ def get_target_expanded(word_seqs, token_seqs, pos_seqs):
         expanded_tgts.append(expanded_sentence)
         j += 1
     return expanded_tgts
-
-
-def write_to_csv(fpath, list):
-    with open(fpath, 'w') as f:
-        # using csv.writer method from CSV package
-        write = csv.writer(f)
-        write.writerows(list)
 
 
 def get_csv_as_list(fpath):
@@ -108,7 +117,29 @@ def get_src_data(WHD_df, outfile):
         for sentence in sentences:
             f.write(sentence + "\n")
 
-# get_src_data("WHD_train_inlex.pkl", "WHD_data/data/WHD_src_train.txt")
+
+# get_src_data("WHD_eval.pkl", "WHD_data/data/WHD_src_eval_UNCLEAN.txt")
+
+
+def unidecode_src_file(src_file, outfile):
+    with open(src_file, "r") as f:
+        lines = f.readlines()
+
+    modified_lines = []
+    for line in lines:
+        line = line.strip()
+        no_e_line = line.replace("É", "E")
+        no_foreign_chars = unidecode(no_e_line)
+        modified_lines.append(no_foreign_chars)
+
+    assert len(modified_lines) == len(lines)
+
+    with open(outfile, "w") as f:
+        for line in modified_lines:
+            f.write(line + "\n")
+
+
+# unidecode_src_file("WHD_data/data/WHD_src_eval_UNCLEAN.txt", "WHD_data/data/WHD_src_eval_DECODED.txt")
 
 
 def remove_non_ascii(src_file, outfile):
@@ -136,12 +167,24 @@ def get_non_ascii_lines(src_file):
     no_ascii_idxs = []
     for i, line in enumerate(lines):
         line = line.strip()
-        no_e_line = line.replace("É", "E")
-        foreign_chars = re.search(r"[^a-zA-Z' ]", no_e_line)
+        # no_e_line = line.replace("É", "E")
+        foreign_chars = re.search(r"[^a-zA-Z' ]", line)
         if foreign_chars == None:
             no_ascii_idxs.append(i)
 
     return no_ascii_idxs
+
+
+def get_no_e_lines(src_file):
+    with open(src_file, "r") as f:
+        lines = f.readlines()
+
+    modified_lines = []
+    for line in lines:
+        no_e_line = line.replace("É", "E")
+        modified_lines.append(no_e_line)
+
+    return modified_lines
 
 
 # get_non_ascii_lines("WHD_data/data/WHD_src_train.txt")
@@ -154,7 +197,8 @@ def get_libri_WHD_data(filenames, output_fpath):
                 for line in infile:
                     outfile.write(line)
 
-get_libri_WHD_data(["libri960_data/data/tgt-train-aug.txt", "WHD_data/data/WHD_tgt_train.txt"], "libri_WHD_data/libri_WHD_tgt_train.txt")
+
+# get_libri_WHD_data(["libri960_data/data/src-POS-train-aug.txt", "WHD_data/data/WHD_POS_train.txt"], "libri_WHD_data/libri_WHD_POS_train.txt")
 
 
 def clean_POS_tags(POS_file, out_file):
@@ -169,7 +213,6 @@ def clean_POS_tags(POS_file, out_file):
     with open(out_file, "w") as f:
         for line in modified_lines:
             f.write(line)
-
 
 
 def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):
@@ -206,11 +249,11 @@ def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):
     return all_word_seqs_fixed
 
 
-# cont_poss_list = ["'s", "n't", "'ll", "'ve", "'m", "'re", "'d"]
+# spacy_pos_tagger("WHD_nnvb_analysis/no_punc_sents.txt")
 #
-# word_seqs_WHD = get_csv_as_list("seqs/word_seqs_WHD")
-# token_seqs_WHD = get_csv_as_list("seqs/token_seqs_WHD")
-# pos_seqs_WHD = get_csv_as_list("seqs/pos_seqs_WHD")
+# word_seqs_WHD = get_csv_as_list("WHD_nnvb_analysis/word_seqs")
+# token_seqs_WHD = get_csv_as_list("WHD_nnvb_analysis/token_seqs")
+# pos_seqs_WHD = get_csv_as_list("WHD_nnvb_analysis/pos_seqs")
 #
 # expanded_tgts = get_target_expanded(word_seqs_WHD, token_seqs_WHD, pos_seqs_WHD)
 #
@@ -223,6 +266,6 @@ def fix_seqs_sentencesWHD(seqs_list, sentences_fpath):
 #         expanded_sentence.append("+")
 #     expanded_POSseqs.append(expanded_sentence)
 #
-# with open("WHD_data/data/WHD_POS.txt", "w") as f:
+# with open("WHD_nnvb_analysis/src_POS_nnvb.txt", "w") as f:
 #     for seq in expanded_POSseqs:
 #         f.write(" ".join(seq) + "\n")

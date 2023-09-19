@@ -22,8 +22,16 @@ import pickle
 # with open("WHD_eval_clean.pkl", "wb") as outfile:
 #     pickle.dump(WHD_eval_clean, outfile)
 
-with open("WHD_full_clean.pkl", "rb") as df:
+with open("WHD_eval_clean.pkl", "rb") as df:
     data = pickle.load(df)
 
 homographs = data['homograph'].tolist()
-print(list(set(homographs)))
+gt_homograph_prons = data['gt_homograph_pron'].tolist()
+
+print(len(homographs))
+print(len(gt_homograph_prons))
+with open("clean_eval_homographs.txt", "w") as f:
+    for homograph in homographs:
+        f.write(homograph + "\n")
+
+

@@ -1,0 +1,388 @@
+src|match|phone match|stress match|syl match|freq|row|col|ref|pred
+ATTENUATOR|True|True|True|True|0|1|11|0 @ - 1 t e - 0 n y uw - 2 ei t - 0 @|0 @ - 1 t e - 0 n y uw - 2 ei t - 0 @
+WORKGROUPS|True|True|True|True|0|8|14|1 w @@r k - 3 g r uu p s|1 w @@r k - 3 g r uu p s
+GESTAPO|False|False|True|True|0|15|11|0 g e - 1 s t aa - 0 p ou|0 jh e - 1 s t aa - 0 p ou
+INTERROGATES|True|True|True|True|0|18|4|0 i n - 1 t e - 0 r @ - 0 g ei t s|0 i n - 1 t e - 0 r @ - 0 g ei t s
+DEANNA|True|True|True|True|0|20|10|0 d iy - 1 a - 0 n @|0 d iy - 1 a - 0 n @
+LUNDY'S|True|True|True|True|0|35|1|1 l uh n - 0 d iy z|1 l uh n - 0 d iy z
+DECOMPRESS|False|False|False|True|0|46|5|2 d ii - 0 k @ m - 1 p r e s|0 d i - 1 k uh m - 0 p r e s
+FILENAMES|False|False|False|False|0|49|10|1 f ai lw - 3 n ei m z|1 f ai - 0 l i - 0 n ei m z
+GLYCERINE|False|False|True|True|0|51|13|1 g l i - 0 s @ - 0 r ii n|1 g l ai - 0 s @ - 0 r ii n
+JUICING|True|True|True|True|0|52|6|1 jh uu s - 0 i ng|1 jh uu s - 0 i ng
+HYDROGENATION|False|True|False|True|0|53|1|0 h ai - 2 d r o - 0 jh @ n - 1 ei - 0 sh n!|2 h ai - 0 d r o - 0 jh @ - 1 n ei - 0 sh n!
+SOLVENTS|True|True|True|True|0|53|14|1 s o lw - 0 v n! t s|1 s o lw - 0 v n! t s
+COMPARTMENTED|False|False|False|True|0|54|10|0 k @ m - 1 p aa t - 0 m @ n t - 0 i d|2 k o m - 0 p aa t - 1 m e n t - 0 i d
+SKYDIVER|True|True|True|True|0|56|2|1 s k ai - 2 d ai v - 0 @|1 s k ai - 2 d ai v - 0 @
+ERA'S|True|True|True|True|0|64|9|1 i@ - 0 r @ z|1 i@ - 0 r @ z
+SEASONALLY|True|True|True|True|0|65|8|1 s ii - 0 z n! - 0 @ l - 0 iy|1 s ii - 0 z n! - 0 @ l - 0 iy
+COURSEWORK|True|True|True|True|0|67|15|1 k oo s - 3 w @@r k|1 k oo s - 3 w @@r k
+SCREENWRITER|True|True|True|True|0|70|10|1 s k r ii n - 2 r ai t - 0 @|1 s k r ii n - 2 r ai t - 0 @
+MAHARAJ|False|False|False|True|0|78|8|2 m aa - 0 h @ - 1 r aa jh|1 m a - 0 h @ - 0 r aa jh
+QUANTUM|True|True|True|True|0|90|9|1 k w o n - 0 t @ m|1 k w o n - 0 t @ m
+QUANTUM|True|True|True|True|0|90|17|1 k w o n - 0 t @ m|1 k w o n - 0 t @ m
+CONGRUENCE|True|True|True|True|0|92|13|1 k o ng - 0 g r uw @ n s|1 k o ng - 0 g r uw @ n s
+PERMUTATION|False|True|True|True|0|95|8|2 p @@r - 0 m y uw t - 1 ei - 0 sh n!|2 p @@r - 0 m y uw - 1 t ei - 0 sh n!
+NEURONS|False|False|True|True|0|99|8|1 n y ur - 0 r o n z|1 n y ur - 0 r @ n z
+ASSOCIATIVE|True|True|True|True|0|99|14|0 @ - 1 s ou - 0 s iy @ t - 0 i v|0 @ - 1 s ou - 0 s iy @ t - 0 i v
+ASSOCIATIVE|True|True|True|True|0|99|17|0 @ - 1 s ou - 0 s iy @ t - 0 i v|0 @ - 1 s ou - 0 s iy @ t - 0 i v
+BOEING|True|True|True|True|0|107|4|1 b ou - 0 i ng|1 b ou - 0 i ng
+INTERSEX|False|True|False|True|0|122|19|2 i n - 0 t @ - 1 s e k s|1 i n - 0 t @ - 2 s e k s
+SENSITIVITY|True|True|True|True|0|127|16|2 s e n - 0 s @ - 1 t i v - 0 @ - 0 t iy|2 s e n - 0 s @ - 1 t i v - 0 @ - 0 t iy
+ADVANCEMENTS|True|True|True|True|0|128|8|0 @ d - 1 v aa n s - 0 m @ n t s|0 @ d - 1 v aa n s - 0 m @ n t s
+BIOPSY|False|False|False|False|0|129|8|1 b ai - 0 o p - 0 s iy|1 b ai @ p - 0 s iy
+MINIMALIST|True|True|True|True|0|135|19|1 m i - 0 n i - 0 m l! - 0 i s t|1 m i - 0 n i - 0 m l! - 0 i s t
+SYMMETRIES|True|True|True|True|0|139|10|1 s i - 0 m @ - 0 t r iy z|1 s i - 0 m @ - 0 t r iy z
+BUCKED|True|True|True|True|0|141|2|1 b uh k t|1 b uh k t
+RODEOS|True|True|True|True|0|147|17|1 r ou - 0 d iy - 0 ou z|1 r ou - 0 d iy - 0 ou z
+FELINES|True|True|True|True|0|148|11|1 f ii - 0 l ai n z|1 f ii - 0 l ai n z
+FOREWING|True|True|True|True|0|152|1|1 f oo - 0 w i ng|1 f oo - 0 w i ng
+FASCIST|False|False|True|True|0|158|11|1 f a - 0 sh i s t|1 f a - 0 s i s t
+WILLIAMSON'S|True|True|True|True|0|166|1|1 w i lw - 0 y @ m - 0 s n! z|1 w i lw - 0 y @ m - 0 s n! z
+OVERSTOCKED|True|True|True|True|0|175|1|2 ou - 0 v @ - 1 s t o k t|2 ou - 0 v @ - 1 s t o k t
+CATASTROPHIC|True|True|True|True|0|175|9|2 k a - 0 t @ - 1 s t r o - 0 f i k|2 k a - 0 t @ - 1 s t r o - 0 f i k
+WILDFIRES|True|True|True|True|0|175|10|1 w ai lw d - 3 f ai @ z|1 w ai lw d - 3 f ai @ z
+WUHAN|False|False|False|False|0|186|1|0 w uw - 1 h a n|1 w eir n
+TONG|True|True|True|True|0|186|2|1 t o ng|1 t o ng
+CARDHOLDERS|True|True|True|True|0|186|3|1 k aa d - 2 h ou lw d - 0 @ z|1 k aa d - 2 h ou lw d - 0 @ z
+ABLAUT|False|False|False|True|0|202|5|1 a - 0 b l ow t|0 @ - 1 b l oo t
+SUBNORMAL|True|True|True|True|0|203|4|0 s uh b - 1 n oo - 0 m l!|0 s uh b - 1 n oo - 0 m l!
+PERMUTABLE|False|True|True|True|0|203|21|0 p @ - 1 m y uu t - 0 @ - 0 b l!|0 p @ - 1 m y uu - 0 t @ - 0 b l!
+PERMUTABLE|False|True|True|True|0|207|14|0 p @ - 1 m y uu t - 0 @ - 0 b l!|0 p @ - 1 m y uu - 0 t @ - 0 b l!
+HAMBURGER|False|False|False|True|0|213|7|1 h a m - 2 b @@r g - 0 @|1 h a m - 0 b @@r jh - 0 @
+PIZZA|False|False|True|True|0|213|9|1 p ii t - 0 s @|1 p i z - 0 z @
+REGATTA|True|True|True|True|0|216|16|0 r i - 1 g a - 0 t @|0 r i - 1 g a - 0 t @
+RESAMPLED|False|False|False|True|0|227|4|3 r ii - 1 s aa m - 0 p l! d|0 r i - 1 z aa m - 0 p l! d
+WOW'S|False|False|True|True|0|232|16|1 w ow z|1 w ou z
+CHALLENGER'S|True|True|True|True|0|233|18|1 ch a - 0 l i n jh - 0 @ z|1 ch a - 0 l i n jh - 0 @ z
+RIPPER|True|True|True|True|0|256|10|1 r i p - 0 @|1 r i p - 0 @
+NEUROMUSCULAR|False|False|True|True|0|269|15|2 n y ur - 0 r ou - 1 m uh - 0 s k y uw - 0 l @|2 n y ur - 0 r @ - 1 m uh - 0 s k y uw - 0 l @
+MUTANT|False|False|False|True|0|271|11|1 m y uu - 0 t @ n t|0 m y uw - 1 t a n t
+OUTPERFORM|False|True|False|True|0|271|21|2 ow t - 0 p @ - 1 f oo m|1 ow t - 0 p @ - 2 f oo m
+NEGATED|False|False|True|True|0|273|18|0 n @ - 1 g ei t - 0 i d|0 n i - 1 g ei t - 0 i d
+AUTOFOCUS|False|False|False|True|0|276|12|1 oo - 0 t ou - 2 f ou - 0 k @ s|0 oo - 1 t o - 0 f @ - 0 k @ s
+DIELECTRIC|False|False|False|False|0|285|6|2 d ai - 0 i - 1 l e k - 0 t r i k|0 d ai @ - 1 l e k - 0 t r i k
+RESONATOR|True|True|True|True|0|285|7|1 r e - 0 z @ - 2 n ei t - 0 @|1 r e - 0 z @ - 2 n ei t - 0 @
+HIKERS|True|True|True|True|0|288|10|1 h ai k - 0 @ z|1 h ai k - 0 @ z
+RAILWAY'S|True|True|True|True|0|289|16|1 r ei lw - 3 w ei z|1 r ei lw - 3 w ei z
+MENDES|False|False|False|False|0|299|18|1 m e n - 0 d e z|1 m e n d z
+SICKBAY|True|True|True|True|0|300|9|1 s i k - 3 b ei|1 s i k - 3 b ei
+CAUL|True|True|True|True|0|302|12|1 k oo lw|1 k oo lw
+LARA|True|True|True|True|0|303|7|1 l aa - 0 r @|1 l aa - 0 r @
+MIGRANT|True|True|True|True|0|307|1|1 m ai - 0 g r @ n t|1 m ai - 0 g r @ n t
+GRASSROOTS|False|True|False|True|0|308|14|3 g r aa s - 1 r uu t s|1 g r aa s - 3 r uu t s
+EXPAT|False|False|True|True|0|308|16|0 e k - 1 s p a t|0 i k - 1 s p a t
+MONTENEGRO|True|True|True|True|0|310|14|2 m o n - 0 t i - 1 n ii - 0 g r ou|2 m o n - 0 t i - 1 n ii - 0 g r ou
+SARGENT|True|True|True|True|0|313|17|1 s aa - 0 jh @ n t|1 s aa - 0 jh @ n t
+ABRAMS|True|True|True|True|0|315|13|1 ei - 0 b r @ m z|1 ei - 0 b r @ m z
+INSULIN|False|False|True|True|0|316|4|1 i n s - 0 y uw - 0 l i n|1 i n - 0 s uw - 0 l i n
+INSULIN|False|False|False|True|0|316|10|1 i n s - 0 y uw - 0 l i n|0 i n - 1 s y uu - 0 l i n
+POLYGYNOUS|True|True|True|True|0|317|3|0 p @ - 1 l i - 0 jh i - 0 n @ s|0 p @ - 1 l i - 0 jh i - 0 n @ s
+PALATABILITY|True|True|True|True|0|325|17|2 p a - 0 l @ t - 0 @ - 1 b i l - 0 @ - 0 t iy|2 p a - 0 l @ t - 0 @ - 1 b i l - 0 @ - 0 t iy
+NEPAL|False|False|False|True|0|335|13|0 n @ - 1 p oo lw|1 n e - 0 p l!
+BHUTAN|False|False|False|True|0|335|15|0 b uw - 1 t aa n|1 b y uu - 0 t @ n
+PORTRAYS|False|True|False|True|0|342|2|0 p oo - 1 t r ei z|1 p oo - 0 t r ei z
+HOTTENTOT|True|True|True|True|0|347|2|1 h o - 0 t @ n - 0 t o t|1 h o - 0 t @ n - 0 t o t
+FARROW|True|True|True|True|0|349|4|1 f a - 0 r ou|1 f a - 0 r ou
+MCCULLOCH|False|False|False|True|0|349|6|0 m @ - 1 k uh - 0 l @ k|1 m k - 0 k @ - 0 l o k
+COLLABORATOR|True|True|True|True|0|349|17|0 k @ - 1 l a - 0 b @ - 2 r ei t - 0 @|0 k @ - 1 l a - 0 b @ - 2 r ei t - 0 @
+COMPTROLLER|False|False|True|True|0|350|7|0 k @ n - 1 t r ou - 0 l @|0 k @ m - 1 p t r ou l - 0 @
+COLLABORATOR|True|True|True|True|0|351|5|0 k @ - 1 l a - 0 b @ - 2 r ei t - 0 @|0 k @ - 1 l a - 0 b @ - 2 r ei t - 0 @
+GORILLAS|True|True|True|True|0|356|17|0 g @ - 1 r i - 0 l @ z|0 g @ - 1 r i - 0 l @ z
+STEVEN|True|True|True|True|0|358|12|1 s t ii - 0 v n!|1 s t ii - 0 v n!
+SPIELBERG'S|True|True|True|True|0|358|13|1 s p ii lw - 0 b @@r g z|1 s p ii lw - 0 b @@r g z
+SLIDERS|True|True|True|True|0|361|16|1 s l ai d - 0 @ z|1 s l ai d - 0 @ z
+UNPREDICTABLY|True|True|True|True|0|368|8|2 uh n - 0 p r i - 1 d i k t - 0 @ - 0 b l iy|2 uh n - 0 p r i - 1 d i k t - 0 @ - 0 b l iy
+INSIGHTS|True|True|True|True|0|370|7|1 i n - 3 s ai t s|1 i n - 3 s ai t s
+DENTITION|True|True|True|True|0|381|1|0 d e n - 1 t i - 0 sh n!|0 d e n - 1 t i - 0 sh n!
+DIARRHEA|True|True|True|True|0|382|4|0 d ai @ - 1 r ii @|0 d ai @ - 1 r ii @
+AGRICULTURALLY|True|True|True|True|0|385|11|2 a - 0 g r i - 1 k uh lw - 0 ch @ r - 0 @ l - 0 iy|2 a - 0 g r i - 1 k uh lw - 0 ch @ r - 0 @ l - 0 iy
+NEMATODES|False|True|False|True|0|385|13|1 n e - 0 m @ - 2 t ou d z|2 n e - 0 m @ - 1 t ou d z
+REACTIVITY|False|False|False|False|0|390|10|2 r ii - 0 a k t - 1 i v - 0 @ - 0 t iy|0 r iy a k t - 1 i v - 0 @ - 0 t iy
+BIRTHMARK|True|True|True|True|0|398|5|1 b @@r th - 3 m aa k|1 b @@r th - 3 m aa k
+LIPPMANN'S|False|False|False|True|0|404|1|1 l i p - 0 m @ n z|1 l i p - 3 m a n z
+SANDBURG|False|True|False|True|0|408|6|1 s a n d - 0 b @@r g|1 s a n d - 3 b @@r g
+COLLOQUIALLY|True|True|True|True|0|412|13|0 k @ - 1 l ou - 0 k w iy @ l - 0 iy|0 k @ - 1 l ou - 0 k w iy @ l - 0 iy
+GROUNDNUT|True|True|True|True|0|423|14|1 g r ow n d - 3 n uh t|1 g r ow n d - 3 n uh t
+UNRELIABLY|True|True|True|True|0|428|9|2 uh n - 0 r i - 1 l ai @ - 0 b l iy|2 uh n - 0 r i - 1 l ai @ - 0 b l iy
+AQUACULTURE|True|True|True|True|0|429|1|1 a - 0 k w @ - 2 k uh lw - 0 ch @|1 a - 0 k w @ - 2 k uh lw - 0 ch @
+TEAMED|True|True|True|True|0|432|5|1 t ii m d|1 t ii m d
+POLARIS|False|False|True|True|0|432|7|0 p @ - 1 l aa - 0 r i s|0 p @ l - 1 a - 0 r i s
+STARCHY|True|True|True|True|0|440|2|1 s t aa ch - 0 iy|1 s t aa ch - 0 iy
+CASSAVA|False|False|True|True|0|440|11|0 k @ - 1 s aa - 0 v @|0 k @ - 1 s a - 0 v @
+KIM|True|True|True|True|0|441|1|1 k i m|1 k i m
+PREDICTIVE|True|True|True|True|0|444|1|0 p r i - 1 d i k t - 0 i v|0 p r i - 1 d i k t - 0 i v
+CURSIVE|True|True|True|True|0|446|11|1 k @@r - 0 s i v|1 k @@r - 0 s i v
+HUMANIST|True|True|True|True|0|446|12|1 h y uu - 0 m @ n - 0 i s t|1 h y uu - 0 m @ n - 0 i s t
+MINUSCULE|False|False|True|True|0|446|13|1 m i - 0 n @ - 0 s k y uu lw|1 m i - 0 n uh - 0 s k y uu lw
+BALLASTS|True|True|True|True|0|448|5|1 b a - 0 l @ s t s|1 b a - 0 l @ s t s
+ACTIONABLE|True|True|True|True|0|452|11|1 a k - 0 sh n! - 0 @ - 0 b l!|1 a k - 0 sh n! - 0 @ - 0 b l!
+FRANKENSTEIN'S|True|True|True|True|0|454|14|1 f r a ng - 0 k i n - 2 s t ai n z|1 f r a ng - 0 k i n - 2 s t ai n z
+ELECTRICIAN'S|True|True|True|True|0|457|12|0 i - 2 l e k - 1 t r i - 0 sh n! z|0 i - 2 l e k - 1 t r i - 0 sh n! z
+CAPTAINCY|True|True|True|True|0|459|2|1 k a p - 0 t i n - 0 s iy|1 k a p - 0 t i n - 0 s iy
+CANBERRA|False|False|False|True|0|459|10|1 k a n - 0 b @ - 0 r @|0 k a n - 1 b e - 0 r @
+FANG'S|True|True|True|True|0|460|7|1 f a ng z|1 f a ng z
+SANDSTORM|True|True|True|True|0|462|5|1 s a n d - 3 s t oo m|1 s a n d - 3 s t oo m
+UPRIVER|False|True|False|True|0|462|7|2 uh p - 1 r i - 0 v @|1 uh p - 2 r i - 0 v @
+FERNANDES|False|False|False|False|0|481|13|0 f @ - 1 n a n - 0 d i z|0 f @ - 1 n a n d z
+OUTDATED|True|True|True|True|0|498|17|3 ow t - 1 d ei t - 0 i d|3 ow t - 1 d ei t - 0 i d
+OUTLASTING|True|True|True|True|0|506|10|3 ow t - 1 l aa s t - 0 i ng|3 ow t - 1 l aa s t - 0 i ng
+IMOGEN'S|True|True|True|True|0|507|13|1 i - 0 m @ - 0 jh @ n z|1 i - 0 m @ - 0 jh @ n z
+MAGMA|True|True|True|True|0|514|20|1 m a g - 0 m @|1 m a g - 0 m @
+DAMPING|True|True|True|True|0|517|10|1 d a m p - 0 i ng|1 d a m p - 0 i ng
+FERRIC|True|True|True|True|0|517|15|1 f e - 0 r i k|1 f e - 0 r i k
+THALLIUM|True|True|True|True|0|518|6|1 th a - 0 l iy @ m|1 th a - 0 l iy @ m
+THALLIUM|True|True|True|True|0|518|17|1 th a - 0 l iy @ m|1 th a - 0 l iy @ m
+REACTORS|True|True|True|True|0|521|3|0 r iy - 1 a k t - 0 @ z|0 r iy - 1 a k t - 0 @ z
+PRESSURISED|False|False|True|True|0|521|8|1 p r e - 0 sh r - 0 ai z d|1 p r e - 0 s @ r - 0 ai z d
+REACTORS|True|True|True|True|0|521|10|0 r iy - 1 a k t - 0 @ z|0 r iy - 1 a k t - 0 @ z
+THERMOPLASTIC|True|True|True|True|0|539|19|2 th @@r - 0 m @ - 1 p l a - 0 s t i k|2 th @@r - 0 m @ - 1 p l a - 0 s t i k
+BONNER|True|True|True|True|0|543|1|1 b o - 0 n @|1 b o - 0 n @
+SPECIALISING|True|True|True|True|0|543|5|1 s p e - 0 sh l! - 2 ai z - 0 i ng|1 s p e - 0 sh l! - 2 ai z - 0 i ng
+ISLAMIC|False|False|True|True|0|543|7|0 i z - 1 l a m - 0 i k|0 i z - 1 l aa - 0 m i k
+HALLMARK|True|True|True|True|0|545|2|1 h oo lw - 3 m aa k|1 h oo lw - 3 m aa k
+REISSUE|True|True|True|True|0|545|14|3 r ii - 1 i - 0 sh uu|3 r ii - 1 i - 0 sh uu
+HALLMARK'S|True|True|True|True|0|545|16|1 h oo lw - 3 m aa k s|1 h oo lw - 3 m aa k s
+RADIOED|True|True|True|True|0|553|2|1 r ei - 0 d iy - 0 ou d|1 r ei - 0 d iy - 0 ou d
+CHEERLEADERS|True|True|True|True|0|566|11|1 ch i@ - 2 l ii d - 0 @ z|1 ch i@ - 2 l ii d - 0 @ z
+MICROORGANISMS|False|False|False|False|0|577|6|2 m ai - 0 k r ou - 1 oo - 0 g @ - 0 n i - 0 z m! z|0 m i - 1 k r ou - 0 g @ - 2 n i - 0 z m! z
+MONITORED|True|True|True|True|0|583|12|1 m o - 0 n i - 0 t @ d|1 m o - 0 n i - 0 t @ d
+KARACHI|True|True|True|True|0|584|12|0 k @ - 1 r aa - 0 ch iy|0 k @ - 1 r aa - 0 ch iy
+RAIDED|True|True|True|True|0|590|11|1 r ei d - 0 i d|1 r ei d - 0 i d
+MOBSTER|True|True|True|True|0|598|12|1 m o b - 0 s t @|1 m o b - 0 s t @
+SCIENCE'S|True|True|True|True|0|599|8|1 s ai @ n s - 0 i z|1 s ai @ n s - 0 i z
+CAPPING|True|True|True|True|0|603|7|1 k a p - 0 i ng|1 k a p - 0 i ng
+AESOP'S|False|False|True|True|0|606|10|1 ii - 0 s o p s|1 ii - 0 s @ p s
+AERODYNAMICS|False|False|True|True|0|607|11|2 eir - 0 r ou - 0 d ai - 1 n a - 0 m i k s|2 eir - 0 r ou - 0 d iy - 1 n a - 0 m i k s
+NOTIFICATIONS|True|True|True|True|0|622|15|2 n ou t - 0 i - 0 f i - 1 k ei - 0 sh n! z|2 n ou t - 0 i - 0 f i - 1 k ei - 0 sh n! z
+DECLARER|True|True|True|True|0|629|5|0 d i - 1 k l eir r - 0 @|0 d i - 1 k l eir r - 0 @
+LANGMUIR|False|False|False|True|0|641|2|1 l a ng - 0 m y ur|0 l a ng - 1 m w @@r
+ANTIOXIDANT|False|False|True|True|0|644|1|2 a n - 0 t iy - 1 o k - 0 s i d - 0 @ n t|2 a n - 0 t iy - 1 o k - 0 s i - 0 d a n t
+ADDITIVES|True|True|True|True|0|644|2|1 a d - 0 i - 0 t i v z|1 a d - 0 i - 0 t i v z
+RESETTLEMENT|False|False|False|True|0|648|16|3 r ii - 1 s e - 0 t l! - 0 m @ n t|0 r i - 1 z e - 0 t l! - 0 m @ n t
+PROSTATE|True|True|True|True|0|649|10|1 p r o - 0 s t ei t|1 p r o - 0 s t ei t
+KINGPIN|False|True|False|True|0|651|15|1 k i ng - 3 p i n|1 k i ng - 0 p i n
+HEIDI|True|True|True|True|0|654|1|1 h ai - 0 d iy|1 h ai - 0 d iy
+TRISH|True|True|True|True|0|654|12|1 t r i sh|1 t r i sh
+FIGARO|True|True|True|True|0|656|1|1 f i - 0 g @ - 0 r ou|1 f i - 0 g @ - 0 r ou
+QUARTERBACKS|True|True|True|True|0|657|2|1 k w oo - 0 t @ - 2 b a k s|1 k w oo - 0 t @ - 2 b a k s
+TRIPLING|True|True|True|True|0|660|5|1 t r i - 0 p l! - 0 i ng|1 t r i - 0 p l! - 0 i ng
+NEXUS|True|True|True|True|0|662|18|1 n e k - 0 s @ s|1 n e k - 0 s @ s
+FOOTAGE|True|True|True|True|0|670|20|1 f u t - 0 i jh|1 f u t - 0 i jh
+RERELEASES|True|True|True|True|0|673|5|1 r ii - 0 r i - 2 l ii s - 0 i z|1 r ii - 0 r i - 2 l ii s - 0 i z
+DRUGSTORE|True|True|True|True|0|682|6|1 d r uh g - 3 s t oo|1 d r uh g - 3 s t oo
+BILLIONAIRE|True|True|True|True|0|690|12|2 b i - 0 l iy @ n - 1 eir|2 b i - 0 l iy @ n - 1 eir
+MOTIVATIONAL|True|True|True|True|0|692|14|2 m ou - 0 t i v - 1 ei - 0 sh n! - 0 @ lw|2 m ou - 0 t i v - 1 ei - 0 sh n! - 0 @ lw
+NATIONALISE|True|True|True|True|0|697|7|1 n a sh - 0 n l! - 0 ai z|1 n a sh - 0 n l! - 0 ai z
+LOGICS|True|True|True|True|0|700|2|1 l o - 0 jh i k s|1 l o - 0 jh i k s
+UNPROVABLE|True|True|True|True|0|701|2|0 uh n - 1 p r uu v - 0 @ - 0 b l!|0 uh n - 1 p r uu v - 0 @ - 0 b l!
+LOCATIVE|False|False|True|True|0|705|12|1 l o - 0 k @ t - 0 i v|1 l ou - 0 k @ t - 0 i v
+DESCRIPTOR|False|True|True|True|0|707|2|0 d i - 1 s k r i p - 0 t @|0 d i - 1 s k r i p t - 0 @
+VERBLESS|True|True|True|True|0|709|1|1 v @@r b - 0 l @ s|1 v @@r b - 0 l @ s
+RECONSTRUCTIONIST|True|True|True|True|0|710|10|2 r ii - 0 k @ n - 1 s t r uh k - 0 sh n! - 0 i s t|2 r ii - 0 k @ n - 1 s t r uh k - 0 sh n! - 0 i s t
+WORKPLACE|True|True|True|True|0|711|10|1 w @@r k - 3 p l ei s|1 w @@r k - 3 p l ei s
+PRESENTERS|True|True|True|True|0|712|2|0 p r i - 1 z e n t - 0 @ z|0 p r i - 1 z e n t - 0 @ z
+GASTROPOD|True|True|True|True|0|743|8|1 g a - 0 s t r @ - 0 p o d|1 g a - 0 s t r @ - 0 p o d
+WOODMOUSE|True|True|True|True|0|748|5|1 w u d - 3 m ow s|1 w u d - 3 m ow s
+GRASSLEY|True|True|True|True|0|750|5|1 g r aa s - 0 l iy|1 g r aa s - 0 l iy
+SYNDICALIST|False|False|False|False|0|752|3|1 s i n - 0 d i - 0 k l! - 0 i s t|1 s i n - 0 d i k - 0 l i s t
+COUNTERPRODUCTIVE|False|True|False|True|0|752|17|2 k ow n - 0 t @ - 0 p r @ - 1 d uh k t - 0 i v|1 k ow n - 0 t @ - 0 p r @ - 2 d uh k t - 0 i v
+DETAINEE|False|False|False|False|0|758|10|0 d i - 2 t ei n - 1 ii|0 d i - 1 t ei n
+JAMAICA'S|True|True|True|True|0|774|3|0 jh @ - 1 m ei - 0 k @ z|0 jh @ - 1 m ei - 0 k @ z
+COMPUTERIZED|False|True|True|True|0|790|16|0 k @ m - 1 p y uu t - 0 @ r - 0 ai z d|0 k @ m - 1 p y uu - 0 t @ r - 0 ai z d
+FLOODWATERS|True|True|True|True|0|793|1|1 f l uh d - 2 w oo - 0 t @ z|1 f l uh d - 2 w oo - 0 t @ z
+PRESSURIZED|True|True|True|True|0|794|17|1 p r e - 0 sh r - 0 ai z d|1 p r e - 0 sh r - 0 ai z d
+ISLAMIC|False|False|True|True|0|808|9|0 i z - 1 l a m - 0 i k|0 i z - 1 l aa - 0 m i k
+MAGNETIZABLE|False|False|False|True|0|819|9|1 m a g - 0 n i t - 2 ai z - 0 @ - 0 b l!|0 m a g - 1 n e t - 0 i z - 0 @ - 0 b l!
+DARKENS|True|True|True|True|0|826|11|1 d aa k - 0 @ n z|1 d aa k - 0 @ n z
+HISTOGRAMS|True|True|True|True|0|837|7|1 h i - 0 s t @ - 2 g r a m z|1 h i - 0 s t @ - 2 g r a m z
+SPROCKET|True|True|True|True|0|841|18|1 s p r o - 0 k i t|1 s p r o - 0 k i t
+SARGENT'S|True|True|True|True|0|844|7|1 s aa - 0 jh @ n t s|1 s aa - 0 jh @ n t s
+PYLE|True|True|True|True|0|846|10|1 p ai lw|1 p ai lw
+FOOTHILL|True|True|True|True|0|861|1|1 f u t - 3 h i lw|1 f u t - 3 h i lw
+GYRE|False|False|True|True|0|865|20|1 jh ai @|1 g ai @
+CAMPGROUND|True|True|True|True|0|871|16|1 k a m p - 3 g r ow n d|1 k a m p - 3 g r ow n d
+ALISTAIR|False|False|False|True|0|872|5|1 a - 0 l i - 0 s t @|2 a - 0 l i - 1 s t eir
+SWASTIKA|False|False|False|True|0|885|10|1 s w o - 0 s t i - 0 k @|0 s w o - 1 s t ii - 0 k @
+SUBSECTION|False|False|False|True|0|896|3|1 s uh b - 2 s e k - 0 sh n!|0 s @ b - 1 s e k - 0 sh n!
+OVERPRINTED|True|True|True|True|0|900|10|2 ou - 0 v @ - 1 p r i n t - 0 i d|2 ou - 0 v @ - 1 p r i n t - 0 i d
+FOALED|True|True|True|True|0|903|14|1 f ou lw d|1 f ou lw d
+SOVIETIZATION|False|True|True|True|0|904|16|2 s ou - 0 v iy @ t - 0 ai z - 1 ei - 0 sh n!|2 s ou - 0 v iy @ - 0 t ai z - 1 ei - 0 sh n!
+MINSK|False|False|True|True|0|908|2|1 m i n s k|1 m i ng s k
+MINSK|False|False|True|True|0|908|11|1 m i n s k|1 m i ng s k
+FATHERLIKE|True|True|True|True|0|910|14|1 f aa - 0 dh @ - 2 l ai k|1 f aa - 0 dh @ - 2 l ai k
+COURTESAN'S|False|False|True|True|0|915|16|1 k oo - 0 t i - 2 z a n z|1 k @@r - 0 t i - 2 z a n z
+KIMONO|True|True|True|True|0|915|17|0 k i - 1 m ou - 0 n ou|0 k i - 1 m ou - 0 n ou
+SADOMASOCHISTIC|False|False|False|True|0|917|10|2 s ei - 0 d ou - 2 m a - 0 s @ - 1 k i s t - 0 i k|0 s @ - 2 d o - 0 m @ - 0 s ou - 1 k i s t - 0 i k
+SUFI|False|False|False|True|0|918|2|1 s uu - 0 f iy|0 s uu - 1 f ai
+SENEGAL|False|False|False|True|0|918|7|2 s e - 0 n i - 1 g oo lw|1 s e - 0 n i - 0 g @ lw
+KRISHNA|True|True|True|True|0|921|9|1 k r i sh - 0 n @|1 k r i sh - 0 n @
+MENINGITIS|False|False|True|True|0|922|5|2 m e - 0 n i n - 1 jh ai - 0 t @ s|2 m e - 0 n i ng - 1 jh i - 0 t @ s
+ARTHRITIS|False|False|False|True|0|922|9|0 aa - 1 th r ai - 0 t @ s|1 aa - 0 th r i - 0 t @ s
+CORNCRAKE|True|True|True|True|0|938|5|1 k oo n - 3 k r ei k|1 k oo n - 3 k r ei k
+KITTIWAKE|False|True|False|True|0|938|11|1 k i - 0 t i - 0 w ei k|1 k i - 0 t i - 2 w ei k
+GOLDENEYE|False|False|False|True|0|938|15|1 g ou lw d - 0 n! - 2 ai|2 g o lw - 0 d @ - 1 n ii
+CROSBY'S|True|True|True|True|0|940|1|1 k r o z - 0 b iy z|1 k r o z - 0 b iy z
+RHYMING|True|True|True|True|0|940|7|1 r ai m - 0 i ng|1 r ai m - 0 i ng
+SMALLISH|True|True|True|True|0|941|9|1 s m oo l - 0 i sh|1 s m oo l - 0 i sh
+COLOURFUL|True|True|True|True|0|941|10|1 k uh - 0 l @ - 0 f u lw|1 k uh - 0 l @ - 0 f u lw
+HORNBILL|True|True|True|True|0|942|9|1 h oo n - 3 b i lw|1 h oo n - 3 b i lw
+HORNBILL|False|False|False|True|0|942|11|1 h oo n - 3 b i lw|1 h oo n - 0 b l!
+CONSPECIFIC|True|True|True|True|0|943|6|2 k o n - 0 s p @ - 1 s i - 0 f i k|2 k o n - 0 s p @ - 1 s i - 0 f i k
+MYANMAR|False|False|False|False|0|952|6|0 m y a n - 1 m aa|1 m ai - 0 a n - 0 m aa
+CATCHPOLE|True|True|True|True|0|971|10|1 k a ch - 3 p ou lw|1 k a ch - 3 p ou lw
+DEPLOYMENT|True|True|True|True|0|973|15|0 d i - 1 p l oi - 0 m @ n t|0 d i - 1 p l oi - 0 m @ n t
+HOWLER|True|True|True|True|0|979|17|1 h ow l - 0 @|1 h ow l - 0 @
+NOTARIAL|True|True|True|True|0|980|12|0 n ou - 1 t eir - 0 r iy @ lw|0 n ou - 1 t eir - 0 r iy @ lw
+DURESS|True|True|True|True|0|983|13|0 d y ur - 1 r e s|0 d y ur - 1 r e s
+RACHMANINOFF|True|True|True|True|0|984|4|0 r a k - 1 m a - 0 n i - 0 n o f|0 r a k - 1 m a - 0 n i - 0 n o f
+SCHMITT|False|False|True|True|0|987|15|1 sh m i t|1 sh i m t
+CONTAINMENT|True|True|True|True|0|994|11|0 k @ n - 1 t ei n - 0 m @ n t|0 k @ n - 1 t ei n - 0 m @ n t
+SERIALIZING|True|True|True|True|0|997|13|1 s i@ - 0 r iy @ l - 2 ai z - 0 i ng|1 s i@ - 0 r iy @ l - 2 ai z - 0 i ng
+PROGRAMMATIC|False|False|True|True|0|997|15|2 p r ou - 0 g r @ m - 1 a - 0 t i k|2 p r o - 0 g r @ - 1 m a - 0 t i k
+CASTRO'S|True|True|True|True|0|1006|2|1 k a - 0 s t r ou z|1 k a - 0 s t r ou z
+BUDDIES|True|True|True|True|0|1010|8|1 b uh - 0 d iy z|1 b uh - 0 d iy z
+MCCARTHY|True|True|True|True|0|1015|16|0 m @ - 1 k aa - 0 th iy|0 m @ - 1 k aa - 0 th iy
+REBURIED|False|False|False|True|0|1018|16|3 r ii - 1 b e - 0 r iy d|0 r i - 1 b e - 0 r iy d
+PRIX|False|False|True|True|0|1021|15|1 p r ii|1 p r i k s
+AQUACULTURE|True|True|True|True|0|1027|3|1 a - 0 k w @ - 2 k uh lw - 0 ch @|1 a - 0 k w @ - 2 k uh lw - 0 ch @
+EELGRASS|True|True|True|True|0|1027|5|1 ii lw - 3 g r aa s|1 ii lw - 3 g r aa s
+HYDROCARBONS|False|False|False|True|0|1030|6|2 h ai - 0 d r ou - 1 k aa - 0 b @ n z|1 h ai - 0 d r @ - 2 k aa - 0 b @ n z
+FRIES|True|True|True|True|0|1035|7|1 f r ai z|1 f r ai z
+LEYLAND|False|False|True|True|0|1042|9|1 l ei - 0 l @ n d|1 l e - 0 l @ n d
+LEAKAGE|True|True|True|True|0|1048|13|1 l ii k - 0 i jh|1 l ii k - 0 i jh
+MOTORHEAD|True|True|True|True|0|1050|21|1 m ou - 0 t @ - 2 h e d|1 m ou - 0 t @ - 2 h e d
+VIRTUALIZATION|True|True|True|True|0|1054|7|2 v @@r - 0 ch uw @ l - 0 ai z - 1 ei - 0 sh n!|2 v @@r - 0 ch uw @ l - 0 ai z - 1 ei - 0 sh n!
+ENDPOINT|False|False|False|True|0|1054|12|1 e n d - 3 p oi n t|0 i n d - 1 p oi n t
+ID'S|False|False|True|True|0|1054|17|1 i d z|1 ai d z
+LOGISTICS|False|False|True|True|0|1061|4|0 l @ - 1 jh i - 0 s t i k s|0 l o - 1 jh i s t - 0 i k s
+CONTAINERIZATION|True|True|True|True|0|1062|5|0 k @ n - 2 t ei n - 0 @ r - 0 ai z - 1 ei - 0 sh n!|0 k @ n - 2 t ei n - 0 @ r - 0 ai z - 1 ei - 0 sh n!
+INTERMODAL|True|True|True|True|0|1062|16|2 i n - 0 t @ - 1 m ou d - 0 l!|2 i n - 0 t @ - 1 m ou d - 0 l!
+EMPHASES|False|False|True|True|0|1065|1|1 e m - 0 f @ - 0 s ii z|1 e m - 0 f @ s - 0 i z
+CONSTRUCTIVISM|True|True|True|True|0|1072|4|0 k @ n - 1 s t r uh k t - 0 i v - 2 i - 0 z m!|0 k @ n - 1 s t r uh k t - 0 i v - 2 i - 0 z m!
+WEBMASTER|True|True|True|True|0|1074|10|1 w e b - 2 m aa - 0 s t @|1 w e b - 2 m aa - 0 s t @
+OCTOPUS|True|True|True|True|0|1079|6|1 o k - 0 t @ - 0 p @ s|1 o k - 0 t @ - 0 p @ s
+ROSTERS|False|False|True|True|0|1080|14|1 r o - 0 s t @ z|1 r ou s t - 0 @ z
+ROSTER|True|True|True|True|0|1080|17|1 r o - 0 s t @|1 r o - 0 s t @
+CONFECTIONS|True|True|True|True|0|1090|8|0 k @ n - 1 f e k - 0 sh n! z|0 k @ n - 1 f e k - 0 sh n! z
+LOBBYISTS|True|True|True|True|0|1094|12|1 l o - 0 b iy - 0 i s t s|1 l o - 0 b iy - 0 i s t s
+HICKORY'S|True|True|True|True|0|1099|12|1 h i - 0 k @ - 0 r iy z|1 h i - 0 k @ - 0 r iy z
+AMISH|False|False|True|True|0|1108|2|1 aa - 0 m i sh|1 a - 0 m i sh
+LOEB'S|True|True|True|True|0|1111|1|1 l ou b z|1 l ou b z
+REACTED|True|True|True|True|0|1113|3|0 r iy - 1 a k t - 0 i d|0 r iy - 1 a k t - 0 i d
+STADIUM'S|True|True|True|True|0|1114|7|1 s t ei - 0 d iy @ m z|1 s t ei - 0 d iy @ m z
+SCOREBOARD|True|True|True|True|0|1114|11|1 s k oo - 3 b oo d|1 s k oo - 3 b oo d
+TOURED|True|True|True|True|0|1126|2|1 t ur d|1 t ur d
+ZIMBABWE|False|False|False|True|0|1126|3|0 z i m - 1 b aa b - 0 w iy|1 z i m - 0 b @ - 0 b y uu
+DRUIDIC|True|True|True|True|0|1136|19|0 d r uw - 1 i d - 0 i k|0 d r uw - 1 i d - 0 i k
+MICROBIAL|False|True|True|True|0|1141|13|0 m ai - 1 k r ou b - 0 iy @ lw|0 m ai - 1 k r ou - 0 b iy @ lw
+KEYNES|False|False|True|True|0|1145|8|1 k ei n z|1 k ii n z
+DONS|True|True|True|True|0|1145|9|1 d o n z|1 d o n z
+SCHUMACHER'S|False|False|True|True|0|1146|7|1 sh uu - 0 m a - 0 k @ z|1 sh uu - 0 m a - 0 ch @ z
+FREELANCING|True|True|True|True|0|1152|17|1 f r ii - 2 l aa n s - 0 i ng|1 f r ii - 2 l aa n s - 0 i ng
+MOTHERING|True|True|True|True|0|1173|1|1 m uh - 0 dh @ r - 0 i ng|1 m uh - 0 dh @ r - 0 i ng
+BREASTFEEDING|True|True|True|True|0|1173|7|1 b r e s t - 2 f ii d - 0 i ng|1 b r e s t - 2 f ii d - 0 i ng
+LOGISTICS|False|False|True|True|0|1176|7|0 l @ - 1 jh i - 0 s t i k s|0 l o - 1 jh i s t - 0 i k s
+TUNISIAN|True|True|True|True|0|1180|2|0 t y uw - 1 n i - 0 z iy @ n|0 t y uw - 1 n i - 0 z iy @ n
+INTERCHANGES|True|True|True|True|0|1188|11|1 i n - 0 t @ - 2 ch ei n jh - 0 i z|1 i n - 0 t @ - 2 ch ei n jh - 0 i z
+REACHABLE|True|True|True|True|0|1188|16|1 r ii ch - 0 @ - 0 b l!|1 r ii ch - 0 @ - 0 b l!
+GYROS|False|False|True|True|0|1200|2|1 jh ai - 0 r ou z|1 g ai - 0 r ou z
+GYROS|True|True|True|True|0|1200|20|1 jh ai - 0 r ou z|1 jh ai - 0 r ou z
+DIAGONALS|True|True|True|True|0|1201|14|0 d ai - 1 a - 0 g @ - 0 n l! z|0 d ai - 1 a - 0 g @ - 0 n l! z
+ROTATIONAL|True|True|True|True|0|1201|16|0 r ou - 1 t ei - 0 sh n! - 0 @ lw|0 r ou - 1 t ei - 0 sh n! - 0 @ lw
+SPEARHEADS|True|True|True|True|0|1202|4|1 s p i@ - 3 h e d z|1 s p i@ - 3 h e d z
+MARXISM|False|True|True|True|0|1215|4|1 m aa k s - 0 i - 0 z m!|1 m aa k - 0 s i - 0 z m!
+NATIONALIST|True|True|True|True|0|1216|15|1 n a sh - 0 n l! - 0 i s t|1 n a sh - 0 n l! - 0 i s t
+BISEXUAL|False|False|True|True|0|1222|7|0 b ai - 1 s e k - 0 sh uw @ lw|0 b i - 1 s e k - 0 sh uw @ lw
+MOTORIZED|False|True|True|True|0|1224|13|1 m ou - 0 t @ r - 0 ai z d|1 m ou - 0 t @ - 0 r ai z d
+REPROGRAMMED|False|False|False|True|0|1236|10|3 r ii - 1 p r ou - 0 g r a m d|1 r e - 0 p r @ - 2 g r a m d
+RECEPTOR|True|True|True|True|0|1246|2|0 r i - 1 s e p - 0 t @|0 r i - 1 s e p - 0 t @
+EXPANSIONIST|True|True|True|True|0|1249|10|0 i k - 1 s p a n - 0 sh n! - 0 i s t|0 i k - 1 s p a n - 0 sh n! - 0 i s t
+PASSKEY|True|True|True|True|0|1251|12|1 p aa s - 3 k ii|1 p aa s - 3 k ii
+EDUARDO|False|False|True|True|0|1254|12|0 e d - 1 w aa - 0 d ou|0 i - 1 d y ur - 0 d ou
+EXORCIST|False|False|False|True|0|1257|14|1 e k - 0 s oo - 0 s i s t|0 i g - 1 z oo s - 0 i s t
+ACOLYTE|True|True|True|True|0|1257|16|1 a - 0 k @ - 0 l ai t|1 a - 0 k @ - 0 l ai t
+NIJMEGEN|False|False|True|True|0|1270|10|1 n ai - 0 m ei - 0 g @ n|1 n i - 0 jh i jh - 0 @ n
+CESAR|False|False|True|True|0|1273|4|1 s ii - 0 z @|1 s ii - 0 s @
+CESAR'S|False|False|True|True|0|1273|13|1 s ii - 0 z @ z|1 s e - 0 s @ z
+EDOUARD|False|False|True|True|0|1277|1|1 e d - 0 w aa|1 e - 0 d w @ d
+SONGBIRD|True|True|True|True|0|1282|20|1 s o ng - 3 b @@r d|1 s o ng - 3 b @@r d
+BORROWERS|True|True|True|True|0|1283|1|1 b o - 0 r ou @ z|1 b o - 0 r ou @ z
+ARGENTINA|False|False|True|True|0|1284|7|2 aa - 0 jh @ n - 1 t ii - 0 n @|2 aa - 0 jh e n - 1 t ii - 0 n @
+FERRO|True|True|True|True|0|1289|1|1 f e - 0 r ou|1 f e - 0 r ou
+BLEACH|True|True|True|True|0|1293|4|1 b l ii ch|1 b l ii ch
+CAUCUSES|True|True|True|True|0|1294|2|1 k oo - 0 k @ s - 0 i z|1 k oo - 0 k @ s - 0 i z
+ERICH|False|False|True|True|0|1302|14|1 e - 0 r i k|1 e - 0 r i ch
+SUMMATION|False|False|True|True|0|1311|10|0 s uh m - 1 ei - 0 sh n!|0 s @ - 1 m ei - 0 sh n!
+ISOTOPICALLY|False|False|True|True|0|1315|14|2 ai - 0 s @ - 1 t o p - 0 i k - 0 l iy|2 i - 0 s @ - 1 t o p - 0 i k - 0 l iy
+FUNGICIDES|False|False|True|True|0|1317|4|1 f uh n - 0 jh i - 2 s ai d z|1 f uh ng - 0 jh i - 2 s ai d z
+FOUNDATIONAL|True|True|True|True|0|1320|3|0 f ow n d - 1 ei - 0 sh n! - 0 @ lw|0 f ow n d - 1 ei - 0 sh n! - 0 @ lw
+ONTOLOGY|True|True|True|True|0|1320|4|0 o n - 1 t o - 0 l @ - 0 jh iy|0 o n - 1 t o - 0 l @ - 0 jh iy
+ONTOLOGY|True|True|True|True|0|1320|12|0 o n - 1 t o - 0 l @ - 0 jh iy|0 o n - 1 t o - 0 l @ - 0 jh iy
+FOUNDATIONAL|True|True|True|True|0|1320|19|0 f ow n d - 1 ei - 0 sh n! - 0 @ lw|0 f ow n d - 1 ei - 0 sh n! - 0 @ lw
+ONTOLOGY|True|True|True|True|0|1320|20|0 o n - 1 t o - 0 l @ - 0 jh iy|0 o n - 1 t o - 0 l @ - 0 jh iy
+MINUSCULE|False|False|True|True|0|1332|6|1 m i - 0 n @ - 0 s k y uu lw|1 m i - 0 n uh - 0 s k y uu lw
+ABU|False|False|False|True|0|1340|15|1 a - 0 b uu|0 @ - 1 b uu
+MA'ALI|False|False|False|False|0|1340|17|0 m a - 0 @ l - 0 iy|0 m aa l - 0 ai
+CHRISTOPHER'S|True|True|True|True|0|1351|7|1 k r i - 0 s t @ - 0 f @ z|1 k r i - 0 s t @ - 0 f @ z
+GATWICK|False|False|False|False|0|1353|11|1 g a t - 0 w i k|1 g a - 0 t i - 0 k
+WITTGENSTEIN'S|False|False|True|True|0|1363|11|1 v i t - 0 g @ n - 0 s t ai n z|1 w i t - 0 g @ n - 0 s t ai n z
+CHOREOGRAPHER|True|True|True|True|0|1367|13|2 k o - 0 r iy - 1 o - 0 g r @ - 0 f @|2 k o - 0 r iy - 1 o - 0 g r @ - 0 f @
+TRAUMATIC|True|True|True|True|0|1374|5|0 t r oo - 1 m a - 0 t i k|0 t r oo - 1 m a - 0 t i k
+GASSED|False|False|True|True|0|1377|7|1 g a s t|1 g aa s t
+TRICEPS|True|True|True|True|0|1378|6|1 t r ai - 0 s e p s|1 t r ai - 0 s e p s
+SYNDICATION|True|True|True|True|0|1383|6|2 s i n - 0 d i - 1 k ei - 0 sh n!|2 s i n - 0 d i - 1 k ei - 0 sh n!
+PRIX|False|False|True|True|0|1385|10|1 p r ii|1 p r i k s
+SCHULZ|False|False|True|True|0|1387|4|1 sh u lw t s|1 s k uu lw z
+LI'L|False|False|False|True|0|1387|11|0 l i lw|1 l ai lw
+WEREWOLF|False|False|False|True|0|1393|10|1 w eir - 0 w u lw f|1 w @@r - 3 w u lw f
+LEONOR|False|False|True|True|0|1394|6|1 l ii @ - 0 n oo|1 l e - 0 n @
+MEATY|True|True|True|True|0|1403|5|1 m ii t - 0 iy|1 m ii t - 0 iy
+NADINE|False|False|False|True|0|1404|3|1 n aa - 3 d ii n|0 n @ - 1 d ii n
+GAIL|True|True|True|True|0|1407|3|1 g ei lw|1 g ei lw
+TULLY|True|True|True|True|0|1409|1|1 t uh - 0 l iy|1 t uh - 0 l iy
+EDUARDO|False|False|True|True|0|1409|12|0 e d - 1 w aa - 0 d ou|0 i - 1 d y ur - 0 d ou
+BAYNES|True|True|True|True|0|1411|6|1 b ei n z|1 b ei n z
+RESIDUES|False|False|False|True|0|1417|10|1 r e - 0 z i - 0 jh uu z|0 r i - 1 z i - 0 jh uu z
+INTRACELLULAR|True|True|True|True|0|1417|18|2 i n - 0 t r @ - 1 s e - 0 l y uw l - 0 @|2 i n - 0 t r @ - 1 s e - 0 l y uw l - 0 @
+NORMATIVE|True|True|True|True|0|1428|9|1 n oo - 0 m @ - 0 t i v|1 n oo - 0 m @ - 0 t i v
+SCHILLER'S|True|True|True|True|0|1430|7|1 sh i - 0 l @ z|1 sh i - 0 l @ z
+OLDSMOBILE|False|False|True|True|0|1434|2|1 ou lw d z - 0 m @ - 2 b ii lw|1 ou lw d - 0 s m @ - 2 b ii lw
+OLDSMOBILE|True|True|True|True|0|1434|21|1 ou lw d z - 0 m @ - 2 b ii lw|1 ou lw d z - 0 m @ - 2 b ii lw
+PERI|False|False|False|True|0|1436|8|1 p e - 0 r iy|0 p @ - 1 r ii
+COUTURE|False|False|False|True|0|1438|5|0 k uw - 1 ch ur|1 k uh - 0 ch @
+TRIAD|True|True|True|True|0|1451|11|1 t r ai - 0 a d|1 t r ai - 0 a d
+BANKROLL|False|True|False|True|0|1452|14|1 b a ng k - 3 r ou lw|1 b a ng - 0 k r ou lw
+GLOCKENSPIEL|False|False|False|True|0|1454|7|1 g l o - 0 k @ n - 0 s p ii lw|1 g l o - 0 k i n - 2 s p ii lw
+DECREMENT|False|False|True|True|0|1467|8|1 d e - 0 k r @ - 0 m @ n t|1 d ii - 0 k r @ - 0 m @ n t
+NEHRU|False|False|False|True|0|1471|14|1 n eir - 0 r uu|0 n @ - 1 r uu
+PATHOGENIC|False|True|True|True|0|1475|11|2 p a - 0 th @ - 1 jh e n - 0 i k|2 p a - 0 th @ - 1 jh e - 0 n i k
+PAPAYA|False|False|True|True|0|1475|14|0 p @ - 1 p ai @|0 p @ - 1 p ei @
+AXIAL|True|True|True|True|0|1484|10|1 a k - 0 s iy @ lw|1 a k - 0 s iy @ lw
+WARLOCKS|True|True|True|True|0|1485|1|1 w oo - 0 l o k s|1 w oo - 0 l o k s
+AERODYNAMIC|False|False|True|True|0|1496|9|2 eir - 0 r ou - 0 d ai - 1 n a - 0 m i k|2 eir - 0 r ou - 0 d iy - 1 n a - 0 m i k
+HYDROCARBON|False|False|False|True|0|1497|8|2 h ai - 0 d r ou - 1 k aa - 0 b @ n|1 h ai - 0 d r @ - 2 k aa - 0 b @ n
+HYDROCARBON|False|False|True|True|0|1497|11|2 h ai - 0 d r ou - 1 k aa - 0 b @ n|2 h ai - 0 d r @ - 1 k aa - 0 b @ n
+SHAMANISM|True|True|True|True|0|1498|6|1 sh ei - 0 m @ n - 2 i - 0 z m!|1 sh ei - 0 m @ n - 2 i - 0 z m!
+COLLECTION'S|True|True|True|True|0|1500|10|0 k @ - 1 l e k - 0 sh n! z|0 k @ - 1 l e k - 0 sh n! z
+APPETIT|False|False|False|True|0|1510|7|2 a - 0 p @ - 1 t ii|1 a - 0 p i - 0 t i t
+SCRANTON|True|True|True|True|0|1511|10|1 s k r a n - 0 t @ n|1 s k r a n - 0 t @ n
+PAM'S|True|True|True|True|0|1511|19|1 p a m z|1 p a m z
+BERATES|True|True|True|True|0|1513|2|0 b i - 1 r ei t s|0 b i - 1 r ei t s
+FARRELL|True|True|True|True|0|1518|5|1 f a - 0 r @ lw|1 f a - 0 r @ lw
+SYNAPSES|False|False|False|True|0|1520|4|1 s ai - 0 n a p s - 0 i z|0 s i - 1 n a p s - 0 i z
+PREDICTIVELY|True|True|True|True|0|1523|2|0 p r i - 1 d i k t - 0 i v - 0 l iy|0 p r i - 1 d i k t - 0 i v - 0 l iy
+LUMINANCE|True|True|True|True|0|1526|15|1 l uu - 0 m i - 0 n @ n s|1 l uu - 0 m i - 0 n @ n s
+ABIOTIC|False|False|True|True|0|1527|13|2 ei - 0 b ai - 1 o - 0 t i k|2 ei - 0 b iy - 1 o - 0 t i k
+POLLINATION|True|True|True|True|0|1527|14|2 p o - 0 l i - 1 n ei - 0 sh n!|2 p o - 0 l i - 1 n ei - 0 sh n!
+VERBLESS|True|True|True|True|0|1544|1|1 v @@r b - 0 l @ s|1 v @@r b - 0 l @ s
+GYRO|False|False|True|True|0|1554|7|1 jh ai - 0 r ou|1 g ai - 0 r ou
+THEODOLITE|True|True|True|True|0|1554|18|0 th iy - 1 o - 0 d @ - 0 l ai t|0 th iy - 1 o - 0 d @ - 0 l ai t
+HUNTSVILLE|False|True|True|True|0|1563|17|1 h uh n t s - 0 v i lw|1 h uh n t - 0 s v i lw
+AUTOMATISM|False|False|False|True|0|1568|1|0 oo - 1 t o - 0 m @ t - 2 i - 0 z m!|1 oo - 0 t @ - 2 m a - 0 t i - 0 z m!
+VOLUNTARINESS|False|False|False|False|0|1568|9|1 v o - 0 l @ n - 0 t r iy - 0 n @ s|2 v o - 0 l @ n - 1 t e - 0 r iy - 0 n @ s
+ROCKWELL|True|True|True|True|0|1573|4|1 r o k - 0 w e lw|1 r o k - 0 w e lw
+ASSIGNMENTS|True|True|True|True|0|1573|13|0 @ - 1 s ai n - 0 m @ n t s|0 @ - 1 s ai n - 0 m @ n t s
+VOTIVE|False|True|True|True|0|1579|12|1 v ou - 0 t i v|1 v ou t - 0 i v
+CONNELLY|True|True|True|True|0|1590|14|1 k o - 0 n l! - 0 iy|1 k o - 0 n l! - 0 iy
+LITERACY|True|True|True|True|0|1593|3|1 l i - 0 t @ - 0 r @ - 0 s iy|1 l i - 0 t @ - 0 r @ - 0 s iy
+LITERACY|True|True|True|True|0|1593|8|1 l i - 0 t @ - 0 r @ - 0 s iy|1 l i - 0 t @ - 0 r @ - 0 s iy

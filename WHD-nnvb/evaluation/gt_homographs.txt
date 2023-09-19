@@ -1,0 +1,8 @@
+rethink_nou, 1 r ii - 0 th i ng k
+rethink_vrb, 3 r ii - 1 th i ng k
+redo_nou, 1 r ii - 3 d uu
+redo_vrb, 3 r ii - 1 d uu
+misprint_nou, 1 m i s - 0 p r i n t
+misprint_vrb, 0 m i s - 1 p r i n t
+upgrade_nou,1 uh p - 3 g r ei d
+upgrade_vrb,3 uh p - 1 g r ei d

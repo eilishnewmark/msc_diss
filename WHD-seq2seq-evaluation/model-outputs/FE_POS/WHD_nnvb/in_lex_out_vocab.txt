@@ -1,0 +1,46 @@
+src|match|phone match|stress match|syl match|freq|row|col|ref|pred
+LETTERPRESS|True|True|True|True|0|5|15|1 l e - 0 t @ - 2 p r e s|1 l e - 0 t @ - 2 p r e s
+TYPO|False|True|True|True|0|9|7|1 t ai p - 0 ou|1 t ai - 0 p ou
+TRANSPOSITION|False|True|True|True|0|9|20|2 t r a n s - 0 p @ z - 1 i - 0 sh n!|2 t r a n - 0 s p @ - 1 z i - 0 sh n!
+REDO|False|False|False|True|0|11|2|3 r ii - 1 d uu|1 r ii - 0 d ou
+REDO|False|False|False|True|0|12|14|1 r ii - 3 d uu|1 r ii - 0 d ou
+RESERVE'S|True|True|True|True|0|12|17|0 r i - 1 z @@r v z|0 r i - 1 z @@r v z
+GYMNASTS|True|True|True|True|0|14|1|1 jh i m - 0 n a s t s|1 jh i m - 0 n a s t s
+REDO|False|False|False|True|0|14|13|1 r ii - 3 d uu|0 r i - 1 d uu
+ASSIGNMENTS|True|True|True|True|0|15|4|0 @ - 1 s ai n - 0 m @ n t s|0 @ - 1 s ai n - 0 m @ n t s
+REDONE|False|False|False|True|0|15|8|3 r ii - 1 d uh n|0 r i - 1 d uh n
+REDO|False|False|False|True|0|15|15|3 r ii - 1 d uu|1 r ii - 0 d ou
+MOIRA'S|False|False|False|True|0|16|4|1 m oi - 0 r @ z|0 m oi - 1 r aa z
+MUTANT|True|True|True|True|0|16|14|1 m y uu - 0 t @ n t|1 m y uu - 0 t @ n t
+REDO|False|False|False|True|0|16|24|1 r ii - 3 d uu|0 r i - 1 d uu
+REDO|False|False|False|True|0|17|5|3 r ii - 1 d uu|0 r i - 1 d uu
+YVETTE|False|False|True|True|0|17|15|0 i - 1 v e t|0 y - 1 v e t
+REDO|False|False|False|True|0|18|13|3 r ii - 1 d uu|0 r i - 1 d uu
+REDO|False|False|False|True|0|19|4|3 r ii - 1 d uu|1 r ii - 0 d ou
+REDOING|True|True|True|True|0|19|21|3 r ii - 1 d uu - 0 i ng|3 r ii - 1 d uu - 0 i ng
+GREENWOOD'S|False|True|False|True|0|20|1|1 g r ii n - 3 w u d z|1 g r ii n - 0 w u d z
+REDO|False|False|False|True|0|20|13|1 r ii - 3 d uu|0 r i - 1 d uu
+RETHINK|False|True|False|True|0|21|6|1 r ii - 0 th i ng k|3 r ii - 1 th i ng k
+RETHINK|False|True|False|True|0|22|5|1 r ii - 0 th i ng k|3 r ii - 1 th i ng k
+RETHINK|False|False|False|True|0|23|11|1 r ii - 0 th i ng k|0 r i - 1 th i ng k
+REARMAMENT|False|False|False|False|0|24|13|3 r ii - 1 aa m - 0 @ - 0 m @ n t|1 r @@r m - 0 @ - 0 m @ n t
+RETHINK|False|False|False|True|0|24|19|1 r ii - 0 th i ng k|0 r i - 1 th i ng k
+RETHINK|False|False|False|True|0|25|10|1 r ii - 0 th i ng k|0 r i - 1 th i ng k
+RETHINK|False|False|False|True|0|26|4|1 r ii - 0 th i ng k|0 r i - 1 th i ng k
+RETHINK|True|True|True|True|0|27|7|3 r ii - 1 th i ng k|3 r ii - 1 th i ng k
+TRAUMAS|True|True|True|True|0|28|8|1 t r oo - 0 m @ z|1 t r oo - 0 m @ z
+RETHINK|False|False|False|True|0|28|20|3 r ii - 1 th i ng k|0 r i - 1 th i ng k
+RETHINK|True|True|True|True|0|29|23|3 r ii - 1 th i ng k|3 r ii - 1 th i ng k
+RETHINK|False|False|False|True|0|30|18|3 r ii - 1 th i ng k|0 r i - 1 th i ng k
+UPGRADE|True|True|True|True|0|31|6|1 uh p - 3 g r ei d|1 uh p - 3 g r ei d
+SEATER|True|True|True|True|0|31|17|1 s ii t - 0 @|1 s ii t - 0 @
+UPGRADE|True|True|True|True|0|32|16|1 uh p - 3 g r ei d|1 uh p - 3 g r ei d
+UPGRADE|True|True|True|True|0|33|3|1 uh p - 3 g r ei d|1 uh p - 3 g r ei d
+UPGRADE|True|True|True|True|0|34|10|1 uh p - 3 g r ei d|1 uh p - 3 g r ei d
+UPGRADE|False|True|False|True|0|36|7|1 uh p - 3 g r ei d|3 uh p - 1 g r ei d
+UPGRADE|True|True|True|True|0|37|4|3 uh p - 1 g r ei d|3 uh p - 1 g r ei d
+UPGRADE|True|True|True|True|0|38|8|3 uh p - 1 g r ei d|3 uh p - 1 g r ei d
+BASEL|False|False|True|True|0|39|8|1 b aa - 0 z l!|1 b ei - 0 s l!
+UPGRADE|True|True|True|True|0|39|19|3 uh p - 1 g r ei d|3 uh p - 1 g r ei d
+UPGRADE|True|True|True|True|0|40|4|3 uh p - 1 g r ei d|3 uh p - 1 g r ei d
+FLAMETHROWER|False|False|False|False|0|40|19|1 f l ei m - 3 th r ou @|1 f l a - 0 m i - 2 th r ow @

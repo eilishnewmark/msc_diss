@@ -1,0 +1,2 @@
+src|match|phone match|stress match|syl match|freq|row|col|ref|pred
+ST|False|False|True|True|7|104|12|1 s ei n t|1 s ei n

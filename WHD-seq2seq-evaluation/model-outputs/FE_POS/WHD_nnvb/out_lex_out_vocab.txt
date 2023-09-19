@@ -1,0 +1,11 @@
+src|match|phone match|stress match|syl match|freq|row|col|ref|pred
+BACKSTORY|False|False|False|False|0|16|5|0 b a k - 0 s t r iy|1 b a k - 0 s t @ - 0 r iy
+GAMETTE|False|False|False|True|0|19|20|0 g ei m - 0 e t|0 g @ - 1 m e t
+GAMETTES|False|False|False|True|0|20|5|0 g ei m - 0 e t s|0 g @ - 1 m e t s
+KOTA|False|True|False|True|0|29|3|0 k ou t - 0 @|1 k ou - 0 t @
+ALFIE|False|False|False|True|0|30|26|0 a lw f - 0 iy|1 a lw - 0 f ai
+FEDWIRE|False|True|False|False|0|34|19|0 f e d - 0 w ai - 0 @|1 f e d - 0 w ai @
+TRANS|False|True|False|True|0|37|6|0 t r a n z|1 t r a n z
+SELKIRKS|False|True|False|True|0|37|16|0 s e lw k - 0 @@r k s|1 s e lw - 0 k @@r k s
+KARLSRUHE|False|False|False|False|0|39|23|0 k aa lw s - 0 r uu - 0 ei|0 k aa lw - 1 sh uu
+OFFENBURG|False|False|False|True|0|39|25|0 @ f - 0 @ n b - 0 @@r g|0 @ - 1 f e n - 0 b @@r g

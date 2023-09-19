@@ -1,0 +1,735 @@
+src|match|phone match|stress match|syl match|freq|row|col|ref|pred
+HOWEVER|True|True|True|True|3189|1|1|2 h ow - 1 e - 0 v @|2 h ow - 1 e - 0 v @
+A|True|True|True|True|148138|1|2|1 ei|1 ei
+FATAL|True|True|True|True|250|1|3|1 f ei t - 0 l!|1 f ei t - 0 l!
+EXCEPTION|True|True|True|True|160|1|4|0 i k - 1 s e p - 0 sh n!|0 i k - 1 s e p - 0 sh n!
+CAUSED|True|True|True|True|553|1|5|1 k oo z d|1 k oo z d
+ONE|True|True|True|True|26298|1|6|1 w uh n|1 w uh n
+CREW|True|True|True|True|274|1|7|1 k r uu|1 k r uu
+MEMBER|True|True|True|True|294|1|8|1 m e m - 0 b @|1 m e m - 0 b @
+TO|True|True|True|True|185876|1|9|0 t uu|0 t uu
+MISPRINT|True|True|True|True|1|1|10|0 m i s - 1 p r i n t|0 m i s - 1 p r i n t
+HIMSELF|True|True|True|True|6822|1|11|3 h i m - 1 s e lw f|3 h i m - 1 s e lw f
+AS|True|True|True|True|55144|1|12|1 a z|1 a z
+A|True|True|True|True|148138|1|13|1 ei|1 ei
+DEFORMED|True|True|True|True|29|1|14|0 d i - 1 f oo m d|0 d i - 1 f oo m d
+MONSTER|True|True|True|True|192|1|15|1 m o n - 0 s t @|1 m o n - 0 s t @
+IT'S|True|True|True|True|2818|3|1|1 i t s|1 i t s
+NOT|True|True|True|True|44849|3|2|1 n o t|1 n o t
+MY|True|True|True|True|29927|3|3|1 m ai|1 m ai
+FAULT|True|True|True|True|393|3|4|1 f oo lw t|1 f oo lw t
+THEY|True|True|True|True|33585|3|5|1 dh ei|1 dh ei
+MISPRINT|True|True|True|True|1|3|6|0 m i s - 1 p r i n t|0 m i s - 1 p r i n t
+THEM|True|True|True|True|20342|3|7|1 dh e m|1 dh e m
+IT|True|True|True|True|80112|4|1|1 i t|1 i t
+CONTINUES|True|True|True|True|72|4|2|0 k @ n - 1 t i - 0 n y uu z|0 k @ n - 1 t i - 0 n y uu z
+TO|True|True|True|True|185876|4|3|0 t uu|0 t uu
+MISPRINT|True|True|True|True|1|4|4|0 m i s - 1 p r i n t|0 m i s - 1 p r i n t
+PRINT|True|True|True|True|106|4|5|1 p r i n t|1 p r i n t
+ITS|True|True|True|True|9953|4|6|1 i t s|1 i t s
+OWN|True|True|True|True|6932|4|7|1 ou n|1 ou n
+STERLING|True|True|True|True|60|4|8|1 s t @@r - 0 l i ng|1 s t @@r - 0 l i ng
+BANKNOTES|True|True|True|True|5|4|9|1 b a ng k - 3 n ou t s|1 b a ng k - 3 n ou t s
+UNDER|True|True|True|True|4516|4|10|1 uh n - 0 d @|1 uh n - 0 d @
+LEGAL|True|True|True|True|161|4|11|1 l ii - 0 g @ lw|1 l ii - 0 g @ lw
+ARRANGEMENTS|True|True|True|True|136|4|12|0 @ - 1 r ei n jh - 0 m @ n t s|0 @ - 1 r ei n jh - 0 m @ n t s
+THAT|True|True|True|True|87082|4|13|1 dh a t|1 dh a t
+ALLOW|True|True|True|True|582|4|14|0 @ - 1 l ow|0 @ - 1 l ow
+SCOTTISH|True|True|True|True|54|4|15|1 s k o t - 0 i sh|1 s k o t - 0 i sh
+BANKS|True|True|True|True|274|4|16|1 b a ng k s|1 b a ng k s
+TO|True|True|True|True|185876|4|17|0 t uu|0 t uu
+ISSUE|True|True|True|True|178|4|18|1 i - 0 sh uu|1 i - 0 sh uu
+CURRENCY|True|True|True|True|38|4|19|1 k uh - 0 r @ n - 0 s iy|1 k uh - 0 r @ n - 0 s iy
+IT|True|True|True|True|80112|5|1|1 i t|1 i t
+WAS|True|True|True|True|81994|5|2|1 w o z|1 w o z
+NOT|True|True|True|True|44849|5|3|1 n o t|1 n o t
+ECONOMICAL|True|True|True|True|28|5|4|2 e - 0 k @ - 1 n o - 0 m i k - 0 l!|2 e - 0 k @ - 1 n o - 0 m i k - 0 l!
+TO|True|True|True|True|185876|5|5|0 t uu|0 t uu
+MISPRINT|True|True|True|True|1|5|6|0 m i s - 1 p r i n t|0 m i s - 1 p r i n t
+SINGLE|True|True|True|True|883|5|7|1 s i ng - 0 g l!|1 s i ng - 0 g l!
+COPIES|True|True|True|True|53|5|8|1 k o - 0 p iy z|1 k o - 0 p iy z
+USING|True|True|True|True|194|5|9|1 y uu z - 0 i ng|1 y uu z - 0 i ng
+TRADITIONAL|True|True|True|True|25|5|10|0 t r @ - 1 d i - 0 sh n! - 0 @ lw|0 t r @ - 1 d i - 0 sh n! - 0 @ lw
+PRINTING|True|True|True|True|63|5|11|1 p r i n t - 0 i ng|1 p r i n t - 0 i ng
+TECHNOLOGY|True|True|True|True|1|5|12|0 t e k - 1 n o - 0 l @ - 0 jh iy|0 t e k - 1 n o - 0 l @ - 0 jh iy
+SUCH|True|True|True|True|9020|5|13|1 s uh ch|1 s uh ch
+AS|True|True|True|True|55144|5|14|1 a z|1 a z
+AND|True|True|True|True|231451|5|16|1 a n d|1 a n d
+OFFSET|True|True|True|True|11|5|17|3 o f - 1 s e t|3 o f - 1 s e t
+PRINTING|True|True|True|True|63|5|18|1 p r i n t - 0 i ng|1 p r i n t - 0 i ng
+WHEN|True|True|True|True|20965|6|1|1 w e n|1 w e n
+THE|True|True|True|True|411541|6|2|0 dh @|0 dh @
+MISPRINT|False|True|False|True|1|6|3|0 m i s - 1 p r i n t|1 m i s - 0 p r i n t
+APPEARED|True|True|True|True|1458|6|4|0 @ - 1 p i@ d|0 @ - 1 p i@ d
+ON|True|True|True|True|38449|6|5|1 o n|1 o n
+THE|True|True|True|True|411541|6|6|0 dh @|0 dh @
+TITLE|True|True|True|True|232|6|7|1 t ai - 0 t l!|1 t ai - 0 t l!
+PAGE|True|True|True|True|242|6|8|1 p ei jh|1 p ei jh
+OF|True|True|True|True|205962|6|9|1 o v|1 o v
+HIS|True|True|True|True|63019|6|10|1 h i z|1 h i z
+FIRST|True|True|True|True|7361|6|11|1 f @@r s t|1 f @@r s t
+BOOK|True|True|True|True|1351|6|12|1 b u k|1 b u k
+FAULKNER|True|True|True|True|10|6|13|1 f oo k - 0 n @|1 f oo k - 0 n @
+WAS|True|True|True|True|81994|6|14|1 w o z|1 w o z
+ASKED|True|True|True|True|4005|6|15|1 aa s k t|1 aa s k t
+WHETHER|True|True|True|True|1930|6|16|1 w e - 0 dh @|1 w e - 0 dh @
+HE|True|True|True|True|88355|6|17|1 h ii|1 h ii
+WANTED|True|True|True|True|1373|6|18|1 w o n t - 0 i d|1 w o n t - 0 i d
+THE|True|True|True|True|411541|6|19|0 dh @|0 dh @
+CHANGE|True|True|True|True|1147|6|20|1 ch ei n jh|1 ch ei n jh
+N|True|True|True|True|97|8|1|1 e n|1 e n
+THIS|True|True|True|True|30397|8|2|1 dh i s|1 dh i s
+COPY|True|True|True|True|147|8|3|1 k o - 0 p iy|1 k o - 0 p iy
+THE|True|True|True|True|411541|8|4|0 dh @|0 dh @
+MISTAKE|True|True|True|True|376|8|5|0 m i - 1 s t ei k|0 m i - 1 s t ei k
+IN|True|True|True|True|114161|8|6|1 i n|1 i n
+THE|True|True|True|True|411541|8|7|0 dh @|0 dh @
+RED|True|True|True|True|1747|8|8|1 r e d|1 r e d
+CIRCLE|True|True|True|True|337|8|9|1 s @@r - 0 k l!|1 s @@r - 0 k l!
+IS|True|True|True|True|50902|8|10|1 i z|1 i z
+CORRECTED|True|True|True|True|61|8|11|0 k @ - 1 r e k t - 0 i d|0 k @ - 1 r e k t - 0 i d
+WITH|True|True|True|True|54593|8|12|1 w i dh|1 w i dh
+A|True|True|True|True|148138|8|13|1 ei|1 ei
+SLIP|True|True|True|True|216|8|14|1 s l i p|1 s l i p
+OF|True|True|True|True|205962|8|15|1 o v|1 o v
+PAPER|True|True|True|True|981|8|16|1 p ei - 0 p @|1 p ei - 0 p @
+PASTED|True|True|True|True|10|8|17|1 p ei s t - 0 i d|1 p ei s t - 0 i d
+OVER|True|True|True|True|9169|8|18|1 ou - 0 v @|1 ou - 0 v @
+THE|True|True|True|True|411541|8|19|0 dh @|0 dh @
+MISPRINT|True|True|True|True|1|8|20|1 m i s - 0 p r i n t|1 m i s - 0 p r i n t
+A|True|True|True|True|148138|9|1|1 ei|1 ei
+TYPOGRAPHICAL|True|True|True|True|5|9|2|2 t ai p - 0 @ - 1 g r a - 0 f i k - 0 l!|2 t ai p - 0 @ - 1 g r a - 0 f i k - 0 l!
+ERROR|True|True|True|True|204|9|3|1 e - 0 r @|1 e - 0 r @
+OFTEN|True|True|True|True|2162|9|4|1 o f - 0 t @ n|1 o f - 0 t @ n
+SHORTENED|True|True|True|True|15|9|5|1 sh oo t - 0 @ n d|1 sh oo t - 0 @ n d
+TO|True|True|True|True|185876|9|6|0 t uu|0 t uu
+ALSO|True|True|True|True|3374|9|8|1 oo lw - 0 s ou|1 oo lw - 0 s ou
+CALLED|True|True|True|True|2820|9|9|1 k oo lw d|1 k oo lw d
+A|True|True|True|True|148138|9|10|1 ei|1 ei
+MISPRINT|True|True|True|True|1|9|11|1 m i s - 0 p r i n t|1 m i s - 0 p r i n t
+IS|True|True|True|True|50902|9|12|1 i z|1 i z
+A|True|True|True|True|148138|9|13|1 ei|1 ei
+MISTAKE|True|True|True|True|376|9|14|0 m i - 1 s t ei k|0 m i - 1 s t ei k
+SUCH|True|True|True|True|9020|9|15|1 s uh ch|1 s uh ch
+AS|True|True|True|True|55144|9|16|1 a z|1 a z
+A|True|True|True|True|148138|9|17|1 ei|1 ei
+SPELLING|True|True|True|True|36|9|18|1 s p e l - 0 i ng|1 s p e l - 0 i ng
+OR|True|True|True|True|22264|9|19|1 oo|1 oo
+ERROR|True|True|True|True|204|9|21|1 e - 0 r @|1 e - 0 r @
+MADE|True|True|True|True|8936|9|22|1 m ei d|1 m ei d
+IN|True|True|True|True|114161|9|23|1 i n|1 i n
+THE|True|True|True|True|411541|9|24|0 dh @|0 dh @
+TYPING|True|True|True|True|2|9|25|1 t ai p - 0 i ng|1 t ai p - 0 i ng
+OF|True|True|True|True|205962|9|26|1 o v|1 o v
+PRINTED|True|True|True|True|132|9|27|1 p r i n t - 0 i d|1 p r i n t - 0 i d
+OR|True|True|True|True|22264|9|28|1 oo|1 oo
+ELECTRONIC|False|True|True|True|1|9|29|0 i - 2 l e k - 1 t r o n - 0 i k|0 i - 2 l e k - 1 t r o - 0 n i k
+MATERIAL|True|True|True|True|430|9|30|0 m @ - 1 t i@ - 0 r iy @ lw|0 m @ - 1 t i@ - 0 r iy @ lw
+STING|True|True|True|True|70|10|1|1 s t i ng|1 s t i ng
+SUPPOSED|True|True|True|True|563|10|2|0 s @ - 1 p ou z d|0 s @ - 1 p ou z d
+THE|True|True|True|True|411541|10|3|0 dh @|0 dh @
+LATTER|True|True|True|True|712|10|4|1 l a - 0 t @|1 l a - 0 t @
+WAS|True|True|True|True|81994|10|5|1 w o z|1 w o z
+DUE|True|True|True|True|546|10|6|1 d y uu|1 d y uu
+TO|True|True|True|True|185876|10|7|0 t uu|0 t uu
+A|True|True|True|True|148138|10|8|1 ei|1 ei
+MISPRINT|True|True|True|True|1|10|9|1 m i s - 0 p r i n t|1 m i s - 0 p r i n t
+IN|True|True|True|True|114161|10|10|1 i n|1 i n
+THE|True|True|True|True|411541|10|11|0 dh @|0 dh @
+LYRICS|True|True|True|True|4|10|12|1 l i - 0 r i k s|1 l i - 0 r i k s
+CASH|True|True|True|True|90|10|13|1 k a sh|1 k a sh
+WAS|True|True|True|True|81994|10|14|1 w o z|1 w o z
+USING|True|True|True|True|194|10|15|1 y uu z - 0 i ng|1 y uu z - 0 i ng
+THE|True|True|True|True|411541|11|1|0 dh @|0 dh @
+IS|True|True|True|True|50902|11|3|1 i z|1 i z
+EXPECTED|True|True|True|True|797|11|4|0 i k - 1 s p e k t - 0 i d|0 i k - 1 s p e k t - 0 i d
+TO|True|True|True|True|185876|11|5|0 t uu|0 t uu
+HELP|True|True|True|True|2110|11|6|1 h e lw p|1 h e lw p
+THE|True|True|True|True|411541|11|7|0 dh ii|0 dh ii
+INTELLIGENCE|True|True|True|True|373|11|8|0 i n - 1 t e - 0 l i - 0 jh @ n s|0 i n - 1 t e - 0 l i - 0 jh @ n s
+AGENCIES|True|True|True|True|32|11|9|1 ei - 0 jh @ n s - 0 iy z|1 ei - 0 jh @ n s - 0 iy z
+WORK|True|True|True|True|3879|11|10|1 w @@r k|1 w @@r k
+TOGETHER|True|True|True|True|2589|11|11|0 t @ - 1 g e - 0 dh @|0 t @ - 1 g e - 0 dh @
+THE|True|True|True|True|411541|12|1|0 dh @|0 dh @
+MEN'S|True|True|True|True|154|12|2|1 m e n z|1 m e n z
+AND|True|True|True|True|231451|12|3|1 a n d|1 a n d
+WOMEN'S|True|True|True|True|59|12|4|1 w i - 0 m i n z|1 w i - 0 m i n z
+RACES|True|True|True|True|103|12|5|1 r ei s - 0 i z|1 r ei s - 0 i z
+TOOK|True|True|True|True|4422|12|6|1 t u k|1 t u k
+PLACE|True|True|True|True|4931|12|7|1 p l ei s|1 p l ei s
+AT|True|True|True|True|38469|12|8|1 a t|1 a t
+THE|True|True|True|True|411541|12|9|0 dh @|0 dh @
+BASIN|True|True|True|True|126|12|10|1 b ei - 0 s n!|1 b ei - 0 s n!
+ALONG|True|True|True|True|2298|12|11|0 @ - 1 l o ng|0 @ - 1 l o ng
+WITH|True|True|True|True|54593|12|12|1 w i dh|1 w i dh
+A|True|True|True|True|148138|12|13|1 ei|1 ei
+OF|True|True|True|True|205962|12|15|1 o v|1 o v
+THE|True|True|True|True|411541|12|16|0 dh @|0 dh @
+RACE|True|True|True|True|617|12|18|1 r ei s|1 r ei s
+WHO|True|True|True|True|17390|14|2|1 h uu|1 h uu
+HAD|True|True|True|True|50535|14|3|1 h a d|1 h a d
+VAULTED|True|True|True|True|29|14|4|1 v oo lw t - 0 i d|1 v oo lw t - 0 i d
+ON|True|True|True|True|38449|14|5|1 o n|1 o n
+THE|True|True|True|True|411541|14|6|0 dh ii|0 dh ii
+INCORRECTLY|True|True|True|True|6|14|7|2 i n - 0 k @ - 1 r e k t - 0 l iy|2 i n - 0 k @ - 1 r e k t - 0 l iy
+SET|True|True|True|True|2972|14|8|1 s e t|1 s e t
+APPARATUS|True|True|True|True|111|14|9|2 a - 0 p @ - 1 r ei - 0 t @ s|2 a - 0 p @ - 1 r ei - 0 t @ s
+WERE|True|True|True|True|25818|14|10|1 w @@r|1 w @@r
+INVITED|True|True|True|True|241|14|11|0 i n - 1 v ai t - 0 i d|0 i n - 1 v ai t - 0 i d
+TO|True|True|True|True|185876|14|12|0 t uu|0 t uu
+THEIR|True|True|True|True|20540|14|14|1 dh eir|1 dh eir
+VAULTS|True|True|True|True|24|14|15|1 v oo lw t s|1 v oo lw t s
+AT|True|True|True|True|38469|14|16|1 a t|1 a t
+THE|True|True|True|True|411541|14|17|0 dh ii|0 dh ii
+END|True|True|True|True|2846|14|18|1 e n d|1 e n d
+OF|True|True|True|True|205962|14|19|1 o v|1 o v
+THE|True|True|True|True|411541|14|20|0 dh @|0 dh @
+SESSION|True|True|True|True|82|14|21|1 s e - 0 sh n!|1 s e - 0 sh n!
+RAY|True|True|True|True|157|14|22|1 r ei|1 r ei
+ACCEPTED|True|True|True|True|375|14|23|0 @ k - 1 s e p t - 0 i d|0 @ k - 1 s e p t - 0 i d
+THIS|True|True|True|True|30397|14|24|1 dh i s|1 dh i s
+OFFER|True|True|True|True|539|14|25|1 o - 0 f @|1 o - 0 f @
+AND|True|True|True|True|231451|14|26|1 a n d|1 a n d
+ENDED|True|True|True|True|353|14|27|1 e n d - 0 i d|1 e n d - 0 i d
+UP|True|True|True|True|15910|14|28|1 uh p|1 uh p
+IN|True|True|True|True|114161|14|29|1 i n|1 i n
+THIRTEENTH|True|True|True|True|41|14|30|0 th @@r - 1 t ii n th|0 th @@r - 1 t ii n th
+PLACE|True|True|True|True|4931|14|31|1 p l ei s|1 p l ei s
+WITH|True|True|True|True|54593|14|32|1 w i dh|1 w i dh
+HER|True|True|True|True|48441|14|33|1 h @@r|1 h @@r
+REVISED|True|True|True|True|17|14|34|0 r i - 1 v ai z d|0 r i - 1 v ai z d
+SCORE|True|True|True|True|188|14|35|1 s k oo|1 s k oo
+TIME|True|True|True|True|11934|15|1|1 t ai m|1 t ai m
+CONSUMING|True|True|True|True|19|15|2|0 k @ n - 1 s y uu m - 0 i ng|0 k @ n - 1 s y uu m - 0 i ng
+WORK|True|True|True|True|3879|15|3|1 w @@r k|1 w @@r k
+HAD|True|True|True|True|50535|15|5|1 h a d|1 h a d
+TO|True|True|True|True|185876|15|6|0 t uu|0 t uu
+BE|True|True|True|True|40425|15|7|1 b ii|1 b ii
+EVEN|True|True|True|True|6500|15|9|1 ii - 0 v n!|1 ii - 0 v n!
+THOUGH|True|True|True|True|4916|15|10|1 dh ou|1 dh ou
+NO|True|True|True|True|21357|15|11|1 n ou|1 n ou
+NEED|True|True|True|True|1470|15|12|1 n ii d|1 n ii d
+FOR|True|True|True|True|53032|15|13|0 f @|0 f @
+A|True|True|True|True|148138|15|14|1 ei|1 ei
+EXISTED|True|True|True|True|172|15|16|0 i g - 1 z i s t - 0 i d|0 i g - 1 z i s t - 0 i d
+IN|True|True|True|True|114161|16|1|1 i n|1 i n
+TWENTY|True|True|True|True|2147|16|2|1 t w e n - 0 t iy|1 t w e n - 0 t iy
+NINETEEN|True|True|True|True|326|16|3|0 n ai n - 1 t ii n|0 n ai n - 1 t ii n
+WAS|True|True|True|True|81994|16|6|1 w o z|1 w o z
+FUNDAMENTALLY|True|True|True|True|12|16|7|2 f uh n - 0 d @ - 1 m e n t - 0 l! - 0 iy|2 f uh n - 0 d @ - 1 m e n t - 0 l! - 0 iy
+CHANGED|True|True|True|True|789|16|8|1 ch ei n jh d|1 ch ei n jh d
+REVEALING|True|True|True|True|44|16|9|0 r i - 1 v ii l - 0 i ng|0 r i - 1 v ii l - 0 i ng
+SHE|True|True|True|True|43123|16|10|1 sh ii|1 sh ii
+HAD|True|True|True|True|50535|16|11|1 h a d|1 h a d
+BEEN|True|True|True|True|16877|16|12|1 b ii n|1 b ii n
+A|True|True|True|True|148138|16|13|1 ei|1 ei
+ALL|True|True|True|True|30726|16|15|1 oo lw|1 oo lw
+ALONG|True|True|True|True|2298|16|16|0 @ - 1 l o ng|0 @ - 1 l o ng
+WITH|True|True|True|True|54593|16|17|1 w i dh|1 w i dh
+A|True|True|True|True|148138|16|18|1 ei|1 ei
+RARE|True|True|True|True|312|16|19|1 r eir|1 r eir
+POWER|True|True|True|True|2354|16|20|1 p ow @|1 p ow @
+THAT|True|True|True|True|87082|16|21|1 dh a t|1 dh a t
+LET|True|True|True|True|4816|16|22|1 l e t|1 l e t
+HER|True|True|True|True|48441|16|23|1 h @@r|1 h @@r
+HER|True|True|True|True|48441|16|25|1 h @@r|1 h @@r
+LIFE|True|True|True|True|6584|16|26|1 l ai f|1 l ai f
+EVERY|True|True|True|True|6387|16|27|1 e v - 0 r iy|1 e v - 0 r iy
+TIME|True|True|True|True|11934|16|28|1 t ai m|1 t ai m
+SHE|True|True|True|True|43123|16|29|1 sh ii|1 sh ii
+DIED|True|True|True|True|951|16|30|1 d ai d|1 d ai d
+THE|True|True|True|True|411541|17|1|0 dh @|0 dh @
+GUYS|True|True|True|True|2|17|2|1 g ai z|1 g ai z
+TRY|True|True|True|True|1167|17|3|1 t r ai|1 t r ai
+TO|True|True|True|True|185876|17|4|0 t uu|0 t uu
+THE|True|True|True|True|411541|17|6|0 dh @|0 dh @
+BATHROOM|True|True|True|True|17|17|7|1 b aa th - 3 r uu m|1 b aa th - 3 r uu m
+AFTER|True|True|True|True|8713|17|8|1 aa f - 0 t @|1 aa f - 0 t @
+MO|True|True|True|True|8|17|9|1 m ou|1 m ou
+GIVES|True|True|True|True|472|17|10|1 g i v z|1 g i v z
+THEM|True|True|True|True|20342|17|11|1 dh e m|1 dh e m
+A|True|True|True|True|148138|17|12|1 ei|1 ei
+FLOOR|True|True|True|True|967|17|13|1 f l oo|1 f l oo
+PLAN|True|True|True|True|515|17|14|1 p l a n|1 p l a n
+DREW|True|True|True|True|1057|17|16|1 d r uu|1 d r uu
+UP|True|True|True|True|15910|17|17|1 uh p|1 uh p
+ON|True|True|True|True|38449|17|18|1 o n|1 o n
+WHAT|True|True|True|True|18064|17|19|1 w o t|1 w o t
+HER|True|True|True|True|48441|17|20|1 h @@r|1 h @@r
+DREAM|True|True|True|True|944|17|21|1 d r ii m|1 d r ii m
+BATHROOM|True|True|True|True|17|17|22|1 b aa th - 3 r uu m|1 b aa th - 3 r uu m
+WOULD|True|True|True|True|20043|17|23|1 w u d|1 w u d
+LOOK|True|True|True|True|4255|17|24|1 l u k|1 l u k
+LIKE|True|True|True|True|11186|17|25|1 l ai k|1 l ai k
+BUT|True|True|True|True|45805|18|1|1 b uh t|1 b uh t
+IN|True|True|True|True|114161|18|2|1 i n|1 i n
+THIS|True|True|True|True|30397|18|3|1 dh i s|1 dh i s
+CASE|True|True|True|True|1912|18|4|1 k ei s|1 k ei s
+WE|True|True|True|True|22453|18|5|1 w ii|1 w ii
+GOT|True|True|True|True|3716|18|6|1 g o t|1 g o t
+THEIR|True|True|True|True|20540|18|7|1 dh eir|1 dh eir
+MODELS|True|True|True|True|30|18|8|1 m o - 0 d l! z|1 m o - 0 d l! z
+AND|True|True|True|True|231451|18|9|1 a n d|1 a n d
+WE|True|True|True|True|22453|18|10|1 w ii|1 w ii
+HAD|True|True|True|True|50535|18|11|1 h a d|1 h a d
+TO|True|True|True|True|185876|18|12|0 t uu|0 t uu
+THE|True|True|True|True|411541|18|14|0 dh @|0 dh @
+TEXTURE|True|True|True|True|49|18|15|1 t e k s - 0 ch @|1 t e k s - 0 ch @
+SPACES|True|True|True|True|79|18|16|1 s p ei s - 0 i z|1 s p ei s - 0 i z
+BECAUSE|True|True|True|True|4170|18|17|0 b i - 1 k o z|0 b i - 1 k o z
+THE|True|True|True|True|411541|18|18|0 dh @|0 dh @
+WAY|True|True|True|True|7204|18|19|1 w ei|1 w ei
+WE|True|True|True|True|22453|18|20|1 w ii|1 w ii
+TEXTURE|True|True|True|True|49|18|21|1 t e k s - 0 ch @|1 t e k s - 0 ch @
+MAPS|True|True|True|True|33|18|22|1 m a p s|1 m a p s
+IS|True|True|True|True|50902|18|23|1 i z|1 i z
+DIFFERENT|True|True|True|True|1607|18|24|1 d i - 0 f r @ n t|1 d i - 0 f r @ n t
+GREENWOOD|True|True|True|True|14|19|1|1 g r ii n - 0 w u d|1 g r ii n - 0 w u d
+ALLOWED|True|True|True|True|770|19|2|0 @ - 1 l ow d|0 @ - 1 l ow d
+A|True|True|True|True|148138|19|3|1 ei|1 ei
+OF|True|True|True|True|205962|19|5|1 o v|1 o v
+THE|True|True|True|True|411541|19|6|0 dh @|0 dh @
+GERMAN|True|True|True|True|335|19|7|1 jh @@r - 0 m @ n|1 jh @@r - 0 m @ n
+ARMOUR|True|True|True|True|60|19|8|1 aa - 0 m @|1 aa - 0 m @
+COUNTERS|True|True|True|True|8|19|9|1 k ow n t - 0 @ z|1 k ow n t - 0 @ z
+WHILE|True|True|True|True|5390|19|10|1 w ai lw|1 w ai lw
+ALSO|True|True|True|True|3374|19|11|1 oo lw - 0 s ou|1 oo lw - 0 s ou
+INTRODUCING|True|True|True|True|38|19|12|2 i n - 0 t r @ - 1 d y uu s - 0 i ng|2 i n - 0 t r @ - 1 d y uu s - 0 i ng
+THE|True|True|True|True|411541|19|13|0 dh ii|0 dh ii
+ITALIANS|True|True|True|True|19|19|14|0 i - 1 t a - 0 l iy @ n z|0 i - 1 t a - 0 l iy @ n z
+FOLLOWED|True|True|True|True|1414|19|15|1 f o - 0 l ou d|1 f o - 0 l ou d
+BY|True|True|True|True|30523|19|16|1 b ai|1 b ai
+A|True|True|True|True|148138|19|17|1 ei|1 ei
+RUSSIAN|True|True|True|True|132|19|18|1 r uh - 0 sh @ n|1 r uh - 0 sh @ n
+FRONT|True|True|True|True|1124|19|19|1 f r uh n t|1 f r uh n t
+THE|True|True|True|True|411541|19|22|0 dh @|0 dh @
+RUSSIANS|True|True|True|True|37|19|23|1 r uh - 0 sh @ n z|1 r uh - 0 sh @ n z
+PREDICTIONS|True|True|True|True|8|20|2|0 p r i - 1 d i k - 0 sh n! z|0 p r i - 1 d i k - 0 sh n! z
+ON|True|True|True|True|38449|20|3|1 o n|1 o n
+FUTURE|True|True|True|True|793|20|4|1 f y uu - 0 ch @|1 f y uu - 0 ch @
+WERE|True|True|True|True|25818|20|6|1 w @@r|1 w @@r
+ALSO|True|True|True|True|3374|20|7|1 oo lw - 0 s ou|1 oo lw - 0 s ou
+INACCURATE|True|True|True|True|7|20|8|0 i n - 1 a - 0 k y uw - 0 r @ t|0 i n - 1 a - 0 k y uw - 0 r @ t
+GIVEN|True|True|True|True|2068|20|9|1 g i v - 0 n!|1 g i v - 0 n!
+THE|True|True|True|True|411541|20|10|0 dh @|0 dh @
+NEED|True|True|True|True|1470|20|11|1 n ii d|1 n ii d
+TO|True|True|True|True|185876|20|12|0 t uu|0 t uu
+EVERY|True|True|True|True|6387|20|14|1 e v - 0 r iy|1 e v - 0 r iy
+COUNTER|True|True|True|True|128|20|15|1 k ow n t - 0 @|1 k ow n t - 0 @
+IN|True|True|True|True|114161|20|16|1 i n|1 i n
+THE|True|True|True|True|411541|20|17|0 dh @|0 dh @
+SYSTEM|True|True|True|True|549|20|18|1 s i - 0 s t @ m|1 s i - 0 s t @ m
+FROM|True|True|True|True|27353|20|19|1 f r o m|1 f r o m
+SCRATCH|True|True|True|True|54|20|20|1 s k r a ch|1 s k r a ch
+THE|True|True|True|True|411541|21|1|0 dh @|0 dh @
+PROJECT|True|True|True|True|107|21|2|1 p r o - 0 jh e k t|1 p r o - 0 jh e k t
+SURVIVED|True|True|True|True|50|21|3|0 s @ - 1 v ai v d|0 s @ - 1 v ai v d
+DESPITE|True|True|True|True|147|21|4|0 d i - 1 s p ai t|0 d i - 1 s p ai t
+THE|True|True|True|True|411541|21|5|0 dh @|0 dh @
+HOWEVER|True|True|True|True|3189|21|7|2 h ow - 1 e - 0 v @|2 h ow - 1 e - 0 v @
+WITH|True|True|True|True|54593|21|8|1 w i dh|1 w i dh
+A|True|True|True|True|148138|21|9|1 ei|1 ei
+NEW|True|True|True|True|4139|21|10|1 n y uu|1 n y uu
+BUSINESS|True|True|True|True|1606|21|11|1 b i z - 0 n i s|1 b i z - 0 n i s
+PLAN|True|True|True|True|515|21|12|1 p l a n|1 p l a n
+AND|True|True|True|True|231451|21|13|1 a n d|1 a n d
+AN|True|True|True|True|19616|21|14|1 a n|1 a n
+EXTRA|True|True|True|True|116|21|15|1 e k - 0 s t r @|1 e k - 0 s t r @
+ONE|True|True|True|True|26298|21|16|1 w uh n|1 w uh n
+MILLION|True|True|True|True|287|21|17|1 m i - 0 l iy @ n|1 m i - 0 l iy @ n
+POUNDS|True|True|True|True|431|21|18|1 p ow n d z|1 p ow n d z
+OF|True|True|True|True|205962|21|19|1 o v|1 o v
+FUNDING|True|True|True|True|7|21|20|1 f uh n d - 0 i ng|1 f uh n d - 0 i ng
+FROM|True|True|True|True|27353|21|21|1 f r o m|1 f r o m
+THE|True|True|True|True|411541|21|22|0 dh @|0 dh @
+HERITAGE|True|True|True|True|27|21|23|1 h e - 0 r i - 0 t i jh|1 h e - 0 r i - 0 t i jh
+LOTTERY|True|True|True|True|8|21|24|1 l o - 0 t @ - 0 r iy|1 l o - 0 t @ - 0 r iy
+FUND|True|True|True|True|56|21|25|1 f uh n d|1 f uh n d
+THIS|True|True|True|True|30397|22|1|1 dh i s|1 dh i s
+LED|True|True|True|True|1064|22|2|1 l e d|1 l e d
+TO|True|True|True|True|185876|22|3|0 t uu|0 t uu
+A|True|True|True|True|148138|22|4|1 ei|1 ei
+BY|True|True|True|True|30523|22|6|1 b ai|1 b ai
+THE|True|True|True|True|411541|22|7|0 dh @|0 dh @
+BAND|True|True|True|True|250|22|8|1 b a n d|1 b a n d
+AND|True|True|True|True|231451|22|9|1 a n d|1 a n d
+THEY|True|True|True|True|33585|22|10|1 dh ei|1 dh ei
+BECAME|True|True|True|True|1755|22|11|0 b i - 1 k ei m|0 b i - 1 k ei m
+LESS|True|True|True|True|2260|22|12|1 l e s|1 l e s
+HEAVY|True|True|True|True|1137|22|13|1 h e - 0 v iy|1 h e - 0 v iy
+INTRODUCING|True|True|True|True|38|22|14|2 i n - 0 t r @ - 1 d y uu s - 0 i ng|2 i n - 0 t r @ - 1 d y uu s - 0 i ng
+A|True|True|True|True|148138|22|15|1 ei|1 ei
+TAME|True|True|True|True|48|22|16|1 t ei m|1 t ei m
+HARD|True|True|True|True|1880|22|17|1 h aa d|1 h aa d
+ROCK|True|True|True|True|657|22|18|1 r o k|1 r o k
+SOUND|True|True|True|True|1515|22|19|1 s ow n d|1 s ow n d
+FOR|True|True|True|True|53032|22|20|0 f @|0 f @
+LATER|True|True|True|True|1152|22|21|1 l ei t - 0 @|1 l ei t - 0 @
+ALBUMS|True|True|True|True|1|22|22|1 a lw - 0 b @ m z|1 a lw - 0 b @ m z
+PALMER|True|True|True|True|25|23|1|1 p aa - 0 m @|1 p aa - 0 m @
+WASN'T|True|True|True|True|537|23|2|1 w o z - 0 n! t|1 w o z - 0 n! t
+INTERESTED|True|True|True|True|416|23|3|1 i n - 0 t r @ s t - 0 i d|1 i n - 0 t r @ s t - 0 i d
+IN|True|True|True|True|114161|23|4|1 i n|1 i n
+A|True|True|True|True|148138|23|5|1 ei|1 ei
+SIMPLE|True|True|True|True|862|23|6|1 s i m - 0 p l!|1 s i m - 0 p l!
+COMPILATION|True|True|True|True|2|23|7|2 k o m - 0 p i l - 1 ei - 0 sh n!|2 k o m - 0 p i l - 1 ei - 0 sh n!
+PREFERRING|True|True|True|True|21|23|8|0 p r i - 1 f @@r r - 0 i ng|0 p r i - 1 f @@r r - 0 i ng
+INSTEAD|True|True|True|True|1118|23|9|0 i n - 1 s t e d|0 i n - 1 s t e d
+A|True|True|True|True|148138|23|10|1 ei|1 ei
+AND|True|True|True|True|231451|23|12|1 a n d|1 a n d
+A|True|True|True|True|148138|23|13|1 ei|1 ei
+FRESH|True|True|True|True|800|23|14|1 f r e sh|1 f r e sh
+APPROACH|True|True|True|True|317|23|15|0 @ - 1 p r ou ch|0 @ - 1 p r ou ch
+THE|True|True|True|True|411541|24|1|0 dh @|0 dh @
+HEAVY|True|True|True|True|1137|24|2|1 h e - 0 v iy|1 h e - 0 v iy
+DEFEAT|True|True|True|True|104|24|3|0 d i - 1 f ii t|0 d i - 1 f ii t
+FOR|True|True|True|True|53032|24|4|0 f @|0 f @
+THE|True|True|True|True|411541|24|5|0 dh @|0 dh @
+NATIONAL|True|True|True|True|310|24|6|1 n a sh - 0 n l!|1 n a sh - 0 n l!
+GOVERNMENT|True|True|True|True|1043|24|7|1 g uh - 0 v @ - 0 m @ n t|1 g uh - 0 v @ - 0 m @ n t
+CANDIDATE|True|True|True|True|54|24|8|1 k a n - 0 d i - 0 d @ t|1 k a n - 0 d i - 0 d @ t
+A|True|True|True|True|148138|24|9|1 ei|1 ei
+STRONG|True|True|True|True|1607|24|10|1 s t r o ng|1 s t r o ng
+SUPPORTER|True|True|True|True|5|24|11|0 s @ - 1 p oo t - 0 @|0 s @ - 1 p oo t - 0 @
+OF|True|True|True|True|205962|24|12|1 o v|1 o v
+HELPED|True|True|True|True|362|24|14|1 h e lw p t|1 h e lw p t
+TO|True|True|True|True|185876|24|15|0 t uu|0 t uu
+BRING|True|True|True|True|1440|24|16|1 b r i ng|1 b r i ng
+ABOUT|True|True|True|True|11179|24|17|0 @ - 1 b ow t|0 @ - 1 b ow t
+A|True|True|True|True|148138|24|18|1 ei|1 ei
+IN|True|True|True|True|114161|24|20|1 i n|1 i n
+THE|True|True|True|True|411541|24|21|0 dh @|0 dh @
+GOVERNMENT'S|True|True|True|True|3|24|22|1 g uh - 0 v @ - 0 m @ n t s|1 g uh - 0 v @ - 0 m @ n t s
+AGENDA|True|True|True|True|1|24|23|0 @ - 1 jh e n - 0 d @|0 @ - 1 jh e n - 0 d @
+NEGATIVE|True|True|True|True|98|25|1|1 n e - 0 g @ t - 0 i v|1 n e - 0 g @ t - 0 i v
+PUBLIC|True|True|True|True|1176|25|2|1 p uh - 0 b l i k|1 p uh - 0 b l i k
+REACTION|True|True|True|True|90|25|3|0 r iy - 1 a k - 0 sh n!|0 r iy - 1 a k - 0 sh n!
+TO|True|True|True|True|185876|25|4|0 t uu|0 t uu
+THE|True|True|True|True|411541|25|5|0 dh @|0 dh @
+PROPOSED|True|True|True|True|284|25|6|0 p r @ - 1 p ou z d|0 p r @ - 1 p ou z d
+NAME|True|True|True|True|2320|25|7|1 n ei m|1 n ei m
+PROMPTED|True|True|True|True|69|25|8|1 p r o m p t - 0 i d|1 p r o m p t - 0 i d
+A|True|True|True|True|148138|25|9|1 ei|1 ei
+HE|True|True|True|True|88355|26|1|1 h ii|1 h ii
+HAS|True|True|True|True|10566|26|2|1 h a z|1 h a z
+TO|True|True|True|True|185876|26|3|0 t uu|0 t uu
+HIS|True|True|True|True|63019|26|5|1 h i z|1 h i z
+BEHAVIOR|True|True|True|True|74|26|6|0 b i - 1 h ei v - 0 y @|0 b i - 1 h ei v - 0 y @
+THE|True|True|True|True|411541|27|1|0 dh @|0 dh @
+THEFT|True|True|True|True|42|27|2|1 th e f t|1 th e f t
+CAUSED|True|True|True|True|553|27|3|1 k oo z d|1 k oo z d
+THE|True|True|True|True|411541|27|4|0 dh @|0 dh @
+FAMILY|True|True|True|True|1537|27|5|1 f a - 0 m i - 0 l iy|1 f a - 0 m i - 0 l iy
+TO|True|True|True|True|185876|27|6|0 t uu|0 t uu
+THEIR|True|True|True|True|20540|27|8|1 dh eir|1 dh eir
+SECURITY|True|True|True|True|177|27|9|0 s i - 1 k y ur r - 0 @ - 0 t iy|0 s i - 1 k y ur r - 0 @ - 0 t iy
+ARRANGEMENTS|True|True|True|True|136|27|10|0 @ - 1 r ei n jh - 0 m @ n t s|0 @ - 1 r ei n jh - 0 m @ n t s
+AND|True|True|True|True|231451|27|11|1 a n d|1 a n d
+THIS|True|True|True|True|30397|27|12|1 dh i s|1 dh i s
+LED|True|True|True|True|1064|27|13|1 l e d|1 l e d
+TO|True|True|True|True|185876|27|14|0 t uu|0 t uu
+THE|True|True|True|True|411541|27|15|0 dh @|0 dh @
+PAINTING|True|True|True|True|141|27|16|1 p ei n t - 0 i ng|1 p ei n t - 0 i ng
+BEING|True|True|True|True|5662|27|17|1 b ii - 0 i ng|1 b ii - 0 i ng
+OFFERED|True|True|True|True|572|27|18|1 o - 0 f @ d|1 o - 0 f @ d
+ON|True|True|True|True|38449|27|19|1 o n|1 o n
+LOAN|True|True|True|True|56|27|20|1 l ou n|1 l ou n
+TO|True|True|True|True|185876|27|21|0 t uu|0 t uu
+THE|True|True|True|True|411541|27|22|0 dh @|0 dh @
+TATE|True|True|True|True|2|27|23|1 t ei t|1 t ei t
+FROM|True|True|True|True|27353|28|1|1 f r o m|1 f r o m
+THIS|True|True|True|True|30397|28|2|1 dh i s|1 dh i s
+MOMENT|True|True|True|True|3542|28|3|1 m ou - 0 m @ n t|1 m ou - 0 m @ n t
+ON|True|True|True|True|38449|28|4|1 o n|1 o n
+SECRETS|True|True|True|True|130|28|5|1 s ii - 0 k r @ t s|1 s ii - 0 k r @ t s
+LIES|True|True|True|True|481|28|6|1 l ai z|1 l ai z
+AND|True|True|True|True|231451|28|7|1 a n d|1 a n d
+FROM|True|True|True|True|27353|28|9|1 f r o m|1 f r o m
+THE|True|True|True|True|411541|28|10|0 dh @|0 dh @
+PAST|True|True|True|True|1380|28|11|1 p aa s t|1 p aa s t
+COME|True|True|True|True|7822|28|12|1 k uh m|1 k uh m
+TO|True|True|True|True|185876|28|13|0 t uu|0 t uu
+LIGHT|True|True|True|True|3300|28|14|1 l ai t|1 l ai t
+FORCING|True|True|True|True|51|28|15|1 f oo s - 0 i ng|1 f oo s - 0 i ng
+THE|True|True|True|True|411541|28|16|0 dh @|0 dh @
+TWO|True|True|True|True|9751|28|17|1 t uu|1 t uu
+SISTERS|True|True|True|True|450|28|18|1 s i - 0 s t @ z|1 s i - 0 s t @ z
+TO|True|True|True|True|185876|28|19|0 t uu|0 t uu
+MANY|True|True|True|True|5719|28|21|1 m e - 0 n iy|1 m e - 0 n iy
+PERSONAL|True|True|True|True|620|28|22|1 p @@r - 0 s n! - 0 @ lw|1 p @@r - 0 s n! - 0 @ lw
+ASPECTS|True|True|True|True|38|28|23|1 a - 0 s p e k t s|1 a - 0 s p e k t s
+OF|True|True|True|True|205962|28|24|1 o v|1 o v
+THEIR|True|True|True|True|20540|28|25|1 dh eir|1 dh eir
+LIVES|True|True|True|True|746|28|26|1 l ai v z|1 l ai v z
+OVER|True|True|True|True|9169|29|1|1 ou - 0 v @|1 ou - 0 v @
+AT|True|True|True|True|38469|29|2|1 a t|1 a t
+DAN'S|True|True|True|True|5|29|4|1 d a n z|1 d a n z
+EXTRA|True|True|True|True|116|29|5|1 e k - 0 s t r @|1 e k - 0 s t r @
+HELPINGS|True|True|True|True|1|29|6|1 h e lw p - 0 i ng z|1 h e lw p - 0 i ng z
+OF|True|True|True|True|205962|29|7|1 o v|1 o v
+FOOD|True|True|True|True|1056|29|8|1 f uu d|1 f uu d
+CAUSED|True|True|True|True|553|29|9|1 k oo z d|1 k oo z d
+CONFLICT|True|True|True|True|148|29|10|1 k o n - 0 f l i k t|1 k o n - 0 f l i k t
+AMONG|True|True|True|True|2750|29|11|0 @ - 1 m uh ng|0 @ - 1 m uh ng
+THE|True|True|True|True|411541|29|12|0 dh @|0 dh @
+TRIBE|True|True|True|True|128|29|13|1 t r ai b|1 t r ai b
+WHILE|True|True|True|True|5390|29|14|1 w ai lw|1 w ai lw
+THE|True|True|True|True|411541|29|15|0 dh @|0 dh @
+DWINDLING|True|True|True|True|9|29|16|1 d w i n - 0 d l! - 0 i ng|1 d w i n - 0 d l! - 0 i ng
+FOOD|True|True|True|True|1056|29|17|1 f uu d|1 f uu d
+SUPPLIES|True|True|True|True|145|29|18|0 s @ - 1 p l ai z|0 s @ - 1 p l ai z
+AT|True|True|True|True|38469|29|19|1 a t|1 a t
+FANG|True|True|True|True|4|29|20|1 f a ng|1 f a ng
+MADE|True|True|True|True|8936|29|21|1 m ei d|1 m ei d
+THEM|True|True|True|True|20342|29|22|1 dh e m|1 dh e m
+THEIR|True|True|True|True|20540|29|24|1 dh eir|1 dh eir
+RATIONING|True|True|True|True|2|29|25|1 r a - 0 sh n! - 0 i ng|1 r a - 0 sh n! - 0 i ng
+OF|True|True|True|True|205962|29|26|1 o v|1 o v
+FOOD|True|True|True|True|1056|29|27|1 f uu d|1 f uu d
+THEY|True|True|True|True|33585|30|1|1 dh ei|1 dh ei
+DECIDE|True|True|True|True|199|30|2|0 d i - 1 s ai d|0 d i - 1 s ai d
+TO|True|True|True|True|185876|30|3|0 t uu|0 t uu
+EMBARK|True|True|True|True|17|30|4|0 i m - 1 b aa k|0 i m - 1 b aa k
+ON|True|True|True|True|38449|30|5|1 o n|1 o n
+THEIR|True|True|True|True|20540|30|6|1 dh eir|1 dh eir
+RELATIONSHIP|True|True|True|True|58|30|7|0 r i - 1 l ei - 0 sh n! - 2 sh i p|0 r i - 1 l ei - 0 sh n! - 2 sh i p
+SLOWLY|True|True|True|True|1023|30|8|1 s l ou - 0 l iy|1 s l ou - 0 l iy
+BUT|True|True|True|True|45805|30|9|1 b uh t|1 b uh t
+HIS|True|True|True|True|63019|30|10|1 h i z|1 h i z
+INABILITY|True|True|True|True|40|30|11|2 i n - 0 @ - 1 b i l - 0 @ - 0 t iy|2 i n - 0 @ - 1 b i l - 0 @ - 0 t iy
+TO|True|True|True|True|185876|30|12|0 t uu|0 t uu
+TRUST|True|True|True|True|571|30|13|1 t r uh s t|1 t r uh s t
+HER|True|True|True|True|48441|30|14|1 h @@r|1 h @@r
+CAUSES|True|True|True|True|312|30|15|1 k oo z - 0 i z|1 k oo z - 0 i z
+HER|True|True|True|True|48441|30|16|1 h @@r|1 h @@r
+TO|True|True|True|True|185876|30|17|0 t uu|0 t uu
+THE|True|True|True|True|411541|30|19|0 dh @|0 dh @
+ROMANCE|True|True|True|True|131|30|20|0 r ou - 1 m a n s|0 r ou - 1 m a n s
+AND|True|True|True|True|231451|30|21|1 a n d|1 a n d
+SHE|True|True|True|True|43123|30|22|1 sh ii|1 sh ii
+BREAKS|True|True|True|True|91|30|23|1 b r ei k s|1 b r ei k s
+UP|True|True|True|True|15910|30|24|1 uh p|1 uh p
+WITH|True|True|True|True|54593|30|25|1 w i dh|1 w i dh
+WITHIN|True|True|True|True|1917|30|27|3 w i dh - 1 i n|3 w i dh - 1 i n
+LESS|True|True|True|True|2260|30|28|1 l e s|1 l e s
+THAN|True|True|True|True|11228|30|29|1 dh a n|1 dh a n
+A|True|True|True|True|148138|30|30|1 ei|1 ei
+WEEK|True|True|True|True|817|30|31|1 w ii k|1 w ii k
+IN|True|True|True|True|114161|31|1|1 i n|1 i n
+NOVEMBER|True|True|True|True|138|31|2|0 n ou - 1 v e m - 0 b @|0 n ou - 1 v e m - 0 b @
+TWENTY|True|True|True|True|2147|31|3|1 t w e n - 0 t iy|1 t w e n - 0 t iy
+TWENTY|True|True|True|True|2147|31|4|1 t w e n - 0 t iy|1 t w e n - 0 t iy
+AN|True|True|True|True|19616|31|5|1 a n|1 a n
+WHICH|True|True|True|True|30969|31|7|1 w i ch|1 w i ch
+INCLUDED|True|True|True|True|118|31|8|0 i n - 1 k l uu d - 0 i d|0 i n - 1 k l uu d - 0 i d
+A|True|True|True|True|148138|31|9|1 ei|1 ei
+NEW|True|True|True|True|4139|31|10|1 n y uu|1 n y uu
+TOURIST|True|True|True|True|27|31|11|1 t ur r - 0 i s t|1 t ur r - 0 i s t
+RECEPTION|True|True|True|True|139|31|12|0 r i - 1 s e p - 0 sh n!|0 r i - 1 s e p - 0 sh n!
+AREA|True|True|True|True|124|31|13|1 eir - 0 r iy @|1 eir - 0 r iy @
+A|True|True|True|True|148138|31|14|1 ei|1 ei
+MODERN|True|True|True|True|404|31|15|1 m o - 0 d n!|1 m o - 0 d n!
+SEVEN|True|True|True|True|1247|31|16|1 s e - 0 v n!|1 s e - 0 v n!
+WASHROOM|True|True|True|True|2|31|18|1 w o sh - 3 r uu m|1 w o sh - 3 r uu m
+THREE|True|True|True|True|4912|31|19|1 th r ii|1 th r ii
+THREE|True|True|True|True|4912|31|20|1 th r ii|1 th r ii
+PAVILIONS|True|True|True|True|5|31|21|0 p @ - 1 v i - 0 l iy @ n z|0 p @ - 1 v i - 0 l iy @ n z
+FOR|True|True|True|True|53032|31|22|0 f @|0 f @
+VISITORS|True|True|True|True|184|31|23|1 v i - 0 z i t - 0 @ z|1 v i - 0 z i t - 0 @ z
+A|True|True|True|True|148138|31|24|1 ei|1 ei
+FENCE|True|True|True|True|199|31|25|1 f e n s|1 f e n s
+OF|True|True|True|True|205962|31|26|1 o v|1 o v
+WIRE|True|True|True|True|158|31|27|1 w ai @|1 w ai @
+MESH|True|True|True|True|6|31|28|1 m e sh|1 m e sh
+AND|True|True|True|True|231451|31|29|1 a n d|1 a n d
+BAMBOO|True|True|True|True|22|31|30|0 b a m - 1 b uu|0 b a m - 1 b uu
+AROUND|True|True|True|True|1987|31|31|0 @ - 1 r ow n d|0 @ - 1 r ow n d
+THE|True|True|True|True|411541|31|32|0 dh @|0 dh @
+SITE|True|True|True|True|49|31|33|1 s ai t|1 s ai t
+PAINTING|True|True|True|True|141|31|34|1 p ei n t - 0 i ng|1 p ei n t - 0 i ng
+OF|True|True|True|True|205962|31|35|1 o v|1 o v
+THE|True|True|True|True|411541|31|36|0 dh ii|0 dh ii
+EDIFICES|True|True|True|True|9|31|37|1 e - 0 d i - 0 f i s - 0 i z|1 e - 0 d i - 0 f i s - 0 i z
+AND|True|True|True|True|231451|31|38|1 a n d|1 a n d
+STRUCTURES|True|True|True|True|26|31|39|1 s t r uh k - 0 ch @ z|1 s t r uh k - 0 ch @ z
+A|True|True|True|True|148138|31|40|1 ei|1 ei
+CAR|True|True|True|True|396|31|41|1 k aa|1 k aa
+PARK|True|True|True|True|209|31|42|1 p aa k|1 p aa k
+AND|True|True|True|True|231451|31|43|1 a n d|1 a n d
+PAVED|True|True|True|True|56|31|44|1 p ei v d|1 p ei v d
+GROUNDS|True|True|True|True|196|31|45|1 g r ow n d z|1 g r ow n d z
+WAS|True|True|True|True|81994|31|46|1 w o z|1 w o z
+COMMISSIONED|True|True|True|True|13|31|47|0 k @ - 1 m i - 0 sh n! d|0 k @ - 1 m i - 0 sh n! d
+ALONG|True|True|True|True|2298|32|1|0 @ - 1 l o ng|0 @ - 1 l o ng
+WITH|True|True|True|True|54593|32|2|1 w i dh|1 w i dh
+THIS|True|True|True|True|30397|32|3|1 dh i s|1 dh i s
+PROJECT|True|True|True|True|107|32|4|1 p r o - 0 jh e k t|1 p r o - 0 jh e k t
+THE|True|True|True|True|411541|32|5|0 dh @|0 dh @
+LOS|True|True|True|True|15|32|6|1 l o s|1 l o s
+ANGELES|True|True|True|True|9|32|7|1 a n - 0 jh @ - 0 l ii z|1 a n - 0 jh @ - 0 l ii z
+DEPARTMENT|True|True|True|True|150|32|8|0 d i - 1 p aa t - 0 m @ n t|0 d i - 1 p aa t - 0 m @ n t
+OF|True|True|True|True|205962|32|9|1 o v|1 o v
+WATER|True|True|True|True|3573|32|10|1 w oo - 0 t @|1 w oo - 0 t @
+AND|True|True|True|True|231451|32|11|1 a n d|1 a n d
+POWER|True|True|True|True|2354|32|12|1 p ow @|1 p ow @
+ALSO|True|True|True|True|3374|32|13|1 oo lw - 0 s ou|1 oo lw - 0 s ou
+UNDERTOOK|True|True|True|True|52|32|14|2 uh n - 0 d @ - 1 t u k|2 uh n - 0 d @ - 1 t u k
+AN|True|True|True|True|19616|32|15|1 a n|1 a n
+OF|True|True|True|True|205962|32|17|1 o v|1 o v
+THE|True|True|True|True|411541|32|18|0 dh @|0 dh @
+SECURITY|True|True|True|True|177|32|19|0 s i - 1 k y ur r - 0 @ - 0 t iy|0 s i - 1 k y ur r - 0 @ - 0 t iy
+AND|True|True|True|True|231451|32|20|1 a n d|1 a n d
+SAFETY|True|True|True|True|353|32|21|1 s ei f - 0 t iy|1 s ei f - 0 t iy
+OF|True|True|True|True|205962|32|22|1 o v|1 o v
+THE|True|True|True|True|411541|32|23|0 dh @|0 dh @
+CITY'S|True|True|True|True|10|32|24|1 s i - 0 t iy z|1 s i - 0 t iy z
+WATER|True|True|True|True|3573|32|25|1 w oo - 0 t @|1 w oo - 0 t @
+SYSTEM|True|True|True|True|549|32|26|1 s i - 0 s t @ m|1 s i - 0 s t @ m
+AT|True|True|True|True|38469|32|27|1 a t|1 a t
+A|True|True|True|True|148138|32|28|1 ei|1 ei
+COST|True|True|True|True|355|32|29|1 k o s t|1 k o s t
+OF|True|True|True|True|205962|32|30|1 o v|1 o v
+ONE|True|True|True|True|26298|32|31|1 w uh n|1 w uh n
+HUNDRED|True|True|True|True|2565|32|32|1 h uh n - 0 d r @ d|1 h uh n - 0 d r @ d
+THIRTY|True|True|True|True|1014|32|33|1 th @@r - 0 t iy|1 th @@r - 0 t iy
+TWO|True|True|True|True|9751|32|34|1 t uu|1 t uu
+MILLION|True|True|True|True|287|32|35|1 m i - 0 l iy @ n|1 m i - 0 l iy @ n
+DOLLARS|True|True|True|True|570|32|36|1 d o - 0 l @ z|1 d o - 0 l @ z
+SPENT|True|True|True|True|557|32|37|1 s p e n t|1 s p e n t
+OVER|True|True|True|True|9169|32|38|1 ou - 0 v @|1 ou - 0 v @
+A|True|True|True|True|148138|32|39|1 ei|1 ei
+FIVE|True|True|True|True|2431|32|40|1 f ai v|1 f ai v
+YEAR|True|True|True|True|1549|32|41|1 y i@|1 y i@
+PERIOD|True|True|True|True|545|32|42|1 p i@ - 0 r iy @ d|1 p i@ - 0 r iy @ d
+AFTER|True|True|True|True|8713|33|1|1 aa f - 0 t @|1 aa f - 0 t @
+THE|True|True|True|True|411541|33|2|0 dh ii|0 dh ii
+OF|True|True|True|True|205962|33|4|1 o v|1 o v
+THE|True|True|True|True|411541|33|5|0 dh @|0 dh @
+WATER|True|True|True|True|3573|33|6|1 w oo - 0 t @|1 w oo - 0 t @
+TREATMENT|True|True|True|True|214|33|7|1 t r ii t - 0 m @ n t|1 t r ii t - 0 m @ n t
+AND|True|True|True|True|231451|33|8|1 a n d|1 a n d
+SUPPLY|True|True|True|True|349|33|9|0 s @ - 1 p l ai|0 s @ - 1 p l ai
+FACILITY|True|True|True|True|60|33|10|0 f @ - 1 s i - 0 l @ - 0 t iy|0 f @ - 1 s i - 0 l @ - 0 t iy
+THE|True|True|True|True|411541|33|11|0 dh @|0 dh @
+LOWER|True|True|True|True|619|33|12|1 l ou @|1 l ou @
+STONE|True|True|True|True|996|33|13|1 s t ou n|1 s t ou n
+RESERVOIR|True|True|True|True|12|33|14|1 r e - 0 z @ v - 0 w aa|1 r e - 0 z @ v - 0 w aa
+IS|True|True|True|True|50902|33|15|1 i z|1 i z
+NOT|True|True|True|True|44849|33|16|1 n o t|1 n o t
+IN|True|True|True|True|114161|33|17|1 i n|1 i n
+USE|True|True|True|True|2017|33|18|1 y uu s|1 y uu s
+EXCEPT|True|True|True|True|1162|33|19|0 i k - 1 s e p t|0 i k - 1 s e p t
+IN|True|True|True|True|114161|33|20|1 i n|1 i n
+EMERGENCY|True|True|True|True|62|33|21|0 i - 1 m @@r - 0 jh @ n - 0 s iy|0 i - 1 m @@r - 0 jh @ n - 0 s iy
+SITUATIONS|True|True|True|True|62|33|22|2 s i - 0 ch uw - 1 ei - 0 sh n! z|2 s i - 0 ch uw - 1 ei - 0 sh n! z
+IN|True|True|True|True|114161|34|1|1 i n|1 i n
+NINETEEN|True|True|True|True|326|34|2|0 n ai n - 1 t ii n|0 n ai n - 1 t ii n
+EIGHTY|True|True|True|True|358|34|3|1 ei - 0 t iy|1 ei - 0 t iy
+THREE|True|True|True|True|4912|34|4|1 th r ii|1 th r ii
+THE|True|True|True|True|411541|34|5|0 dh @|0 dh @
+FED|True|True|True|True|210|34|6|1 f e d|1 f e d
+MADE|True|True|True|True|8936|34|7|1 m ei d|1 m ei d
+A|True|True|True|True|148138|34|8|1 ei|1 ei
+MAJOR|True|True|True|True|343|34|9|1 m ei - 0 jh @|1 m ei - 0 jh @
+OF|True|True|True|True|205962|34|11|1 o v|1 o v
+THE|True|True|True|True|411541|34|12|0 dh ii|0 dh ii
+AUTOMATED|True|True|True|True|1|34|13|1 oo - 0 t @ - 2 m ei t - 0 i d|1 oo - 0 t @ - 2 m ei t - 0 i d
+SYSTEM|True|True|True|True|549|34|14|1 s i - 0 s t @ m|1 s i - 0 s t @ m
+IT|True|True|True|True|80112|34|15|1 i t|1 i t
+USES|True|True|True|True|127|34|16|1 y uu z - 0 i z|1 y uu z - 0 i z
+TO|True|True|True|True|185876|34|17|0 t uu|0 t uu
+SUPPORT|True|True|True|True|444|34|18|0 s @ - 1 p oo t|0 s @ - 1 p oo t
+SEVENTY|True|True|True|True|414|36|1|1 s e - 0 v n! - 0 t iy|1 s e - 0 v n! - 0 t iy
+PERCENT|True|True|True|True|8|36|2|0 p @ - 1 s e n t|0 p @ - 1 s e n t
+OF|True|True|True|True|205962|36|3|1 o v|1 o v
+RESIDENTS|True|True|True|True|17|36|4|1 r e - 0 z i - 0 d @ n t s|1 r e - 0 z i - 0 d @ n t s
+VOTED|True|True|True|True|64|36|5|1 v ou t - 0 i d|1 v ou t - 0 i d
+TO|True|True|True|True|185876|36|6|0 t uu|0 t uu
+THE|True|True|True|True|411541|36|8|0 dh @|0 dh @
+COMMUNITY|True|True|True|True|235|36|9|0 k @ - 1 m y uu n - 0 @ - 0 t iy|0 k @ - 1 m y uu n - 0 @ - 0 t iy
+COUNCIL|True|True|True|True|286|36|10|1 k ow n - 0 s l!|1 k ow n - 0 s l!
+A|True|True|True|True|148138|37|1|1 ei|1 ei
+PROPOSAL|True|True|True|True|137|37|2|0 p r @ - 1 p ou z - 0 l!|0 p r @ - 1 p ou z - 0 l!
+TO|True|True|True|True|185876|37|3|0 t uu|0 t uu
+TO|True|True|True|True|185876|37|5|0 t uu|0 t uu
+CANADA|True|True|True|True|74|37|7|1 k a - 0 n @ - 0 d @|1 k a - 0 n @ - 0 d @
+HIGHWAY|True|True|True|True|72|37|8|1 h ai - 3 w ei|1 h ai - 3 w ei
+STANDARDS|True|True|True|True|52|37|9|1 s t a n - 0 d @ d z|1 s t a n - 0 d @ d z
+A|True|True|True|True|148138|37|10|1 ei|1 ei
+DECADE|True|True|True|True|11|37|11|1 d e - 0 k ei d|1 d e - 0 k ei d
+LATER|True|True|True|True|1152|37|12|1 l ei t - 0 @|1 l ei t - 0 @
+DETERMINED|True|True|True|True|710|37|13|0 d i - 1 t @@r - 0 m i n d|0 d i - 1 t @@r - 0 m i n d
+THAT|True|True|True|True|87082|37|14|1 dh a t|1 dh a t
+THE|True|True|True|True|411541|37|15|0 dh @|0 dh @
+ROUTE|True|True|True|True|113|37|17|1 r uu t|1 r uu t
+WOULD|True|True|True|True|20043|37|18|1 w u d|1 w u d
+BE|True|True|True|True|40425|37|19|1 b ii|1 b ii
+CHEAPER|True|True|True|True|24|37|20|1 ch ii p - 0 @|1 ch ii p - 0 @
+AND|True|True|True|True|231451|37|21|1 a n d|1 a n d
+NOT|True|True|True|True|44849|37|22|1 n o t|1 n o t
+CONFLICT|True|True|True|True|148|37|23|1 k o n - 0 f l i k t|1 k o n - 0 f l i k t
+WITH|True|True|True|True|54593|37|24|1 w i dh|1 w i dh
+THE|True|True|True|True|411541|37|25|0 dh @|0 dh @
+COLUMBIA|True|True|True|True|66|37|26|0 k @ - 1 l uh m - 0 b iy @|0 k @ - 1 l uh m - 0 b iy @
+RIVER|True|True|True|True|1305|37|27|1 r i - 0 v @|1 r i - 0 v @
+HYDRO|True|True|True|True|1|37|28|1 h ai - 0 d r ou|1 h ai - 0 d r ou
+ELECTRIC|True|True|True|True|170|37|29|0 i - 1 l e k - 0 t r i k|0 i - 1 l e k - 0 t r i k
+POTENTIAL|True|True|True|True|14|37|30|0 p @ - 1 t e n - 0 sh l!|0 p @ - 1 t e n - 0 sh l!
+HIS|True|True|True|True|63019|38|1|1 h i z|1 h i z
+FIRST|True|True|True|True|7361|38|2|1 f @@r s t|1 f @@r s t
+GOAL|True|True|True|True|70|38|3|1 g ou lw|1 g ou lw
+WAS|True|True|True|True|81994|38|4|1 w o z|1 w o z
+TO|True|True|True|True|185876|38|5|0 t uu|0 t uu
+EXPAND|True|True|True|True|27|38|6|0 i k - 1 s p a n d|0 i k - 1 s p a n d
+AND|True|True|True|True|231451|38|7|1 a n d|1 a n d
+EVEN|True|True|True|True|6500|38|9|1 ii - 0 v n!|1 ii - 0 v n!
+MORE|True|True|True|True|14422|38|10|1 m oo|1 m oo
+AS|True|True|True|True|55144|39|1|1 a z|1 a z
+PART|True|True|True|True|3286|39|2|1 p aa t|1 p aa t
+OF|True|True|True|True|205962|39|3|1 o v|1 o v
+THE|True|True|True|True|411541|39|4|0 dh @|0 dh @
+CONSTRUCTION|True|True|True|True|97|39|5|0 k @ n - 1 s t r uh k - 0 sh n!|0 k @ n - 1 s t r uh k - 0 sh n!
+OF|True|True|True|True|205962|39|6|1 o v|1 o v
+THE|True|True|True|True|411541|39|7|0 dh @|0 dh @
+HIGH|True|True|True|True|2282|39|9|1 h ai|1 h ai
+SPEED|True|True|True|True|387|39|10|1 s p ii d|1 s p ii d
+RAILWAY|True|True|True|True|146|39|11|1 r ei lw - 3 w ei|1 r ei lw - 3 w ei
+IT|True|True|True|True|80112|39|12|1 i t|1 i t
+WAS|True|True|True|True|81994|39|13|1 w o z|1 w o z
+PLANNED|True|True|True|True|134|39|14|1 p l a n d|1 p l a n d
+IN|True|True|True|True|114161|39|15|1 i n|1 i n
+NINETEEN|True|True|True|True|326|39|16|0 n ai n - 1 t ii n|0 n ai n - 1 t ii n
+NINETY|True|True|True|True|301|39|17|1 n ai n - 0 t iy|1 n ai n - 0 t iy
+TO|True|True|True|True|185876|39|18|0 t uu|0 t uu
+THE|True|True|True|True|411541|39|20|0 dh @|0 dh @
+RAILWAY|True|True|True|True|146|39|21|1 r ei lw - 3 w ei|1 r ei lw - 3 w ei
+BETWEEN|True|True|True|True|3050|39|22|0 b i - 1 t w ii n|0 b i - 1 t w ii n
+AND|True|True|True|True|231451|39|24|1 a n d|1 a n d
+FOR|True|True|True|True|53032|39|26|0 f @|0 f @
+CONTINUOUS|True|True|True|True|83|39|27|0 k @ n - 1 t i - 0 n y uw @ s|0 k @ n - 1 t i - 0 n y uw @ s
+OPERATIONS|True|True|True|True|166|39|28|2 o - 0 p @ - 1 r ei - 0 sh n! z|2 o - 0 p @ - 1 r ei - 0 sh n! z
+AT|True|True|True|True|38469|39|29|1 a t|1 a t
+ONE|True|True|True|True|26298|39|30|1 w uh n|1 w uh n
+HUNDRED|True|True|True|True|2565|39|31|1 h uh n - 0 d r @ d|1 h uh n - 0 d r @ d
+AND|True|True|True|True|231451|39|32|1 a n d|1 a n d
+SIXTY|True|True|True|True|532|39|33|1 s i k - 0 s t iy|1 s i k - 0 s t iy
+KILOMETERS|True|True|True|True|2|39|34|0 k i - 1 l o - 0 m i - 0 t @ z|0 k i - 1 l o - 0 m i - 0 t @ z
+PER|True|True|True|True|252|39|35|1 p @@r|1 p @@r
+H|True|True|True|True|102|39|36|1 ei ch|1 ei ch
+THE|True|True|True|True|411541|40|1|0 dh @|0 dh @
+PLAYER|True|True|True|True|40|40|2|1 p l ei @|1 p l ei @
+CAN|True|True|True|True|9319|40|3|1 k a n|1 k a n
+THEIR|True|True|True|True|20540|40|5|1 dh eir|1 dh eir
+DEFAULT|True|True|True|True|15|40|6|0 d i - 1 f oo lw t|0 d i - 1 f oo lw t
+GUN|True|True|True|True|385|40|7|1 g uh n|1 g uh n
+INTO|True|True|True|True|13876|40|8|1 i n - 0 t uu|1 i n - 0 t uu
+AN|True|True|True|True|19616|40|9|1 a n|1 a n
+ASSAULT|True|True|True|True|80|40|10|0 @ - 1 s oo lw t|0 @ - 1 s oo lw t
+RIFLE|True|True|True|True|159|40|11|1 r ai - 0 f l!|1 r ai - 0 f l!
+A|True|True|True|True|148138|40|12|1 ei|1 ei
+SHOTGUN|True|True|True|True|7|40|13|1 sh o t - 3 g uh n|1 sh o t - 3 g uh n
+A|True|True|True|True|148138|40|14|1 ei|1 ei
+GRENADE|True|True|True|True|4|40|15|0 g r @ - 1 n ei d|0 g r @ - 1 n ei d
+LAUNCHER|True|True|True|True|1|40|16|1 l oo n ch - 0 @|1 l oo n ch - 0 @
+OR|True|True|True|True|22264|40|17|1 oo|1 oo
+A|True|True|True|True|148138|40|18|1 ei|1 ei

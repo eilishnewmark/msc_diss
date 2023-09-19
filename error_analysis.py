@@ -1,5 +1,8 @@
 import pickle
+from collections import defaultdict
+import csv
 from get_training_data import write_to_csv, get_csv_as_list
+import itertools
 
 
 def get_libri_homograph_ref_preds(src_file, ref_file, pred_file, WHD_df, outfile):
@@ -57,11 +60,6 @@ def get_libri_homograph_ref_preds(src_file, ref_file, pred_file, WHD_df, outfile
     write_to_csv(outfile + "_incorrect.csv", all_mismatching_info)
 
 
-# get_libri_homograph_ref_preds("libri960_data/data/src-test.txt", "libri960_data/data/tgt-test.txt",
-#                               "libri960_data/model_outputs/FE_src-test.ph.txt", "WHD_full_clean.pkl", "libri_analysis/error_analysis/fe_test")
-
-
-# TO DO: change so that preds come from model_outputs folder/WHD_pron_clean
 def get_WHD_homograph_gt_preds(csv_file, pred_file, WHD_df):
     csv_preds = get_csv_as_list(csv_file + ".csv")
     pred_ids = []
@@ -112,4 +110,97 @@ def get_WHD_homograph_gt_preds(csv_file, pred_file, WHD_df):
     write_to_csv(csv_file + "_DATA.csv", all_info)
 
 
-get_WHD_homograph_gt_preds("WHD_seq2seq_analysis/FE_POS/just_pronunciation_correct", "WHD_data/model_outputs/FE_POS_WHD_src.ph.txt", "WHD_full_clean.pkl")
+def get_iliv_ilov_homograph_accs(fpath, homograph_file, nnvb=False):
+    with open(homograph_file, "r") as f:
+        all_homographs = f.readlines()
+
+    homographs = list(map(str.upper, set(all_homographs)))
+    homographs = list(map(str.strip, homographs))
+    if nnvb:
+        with open("WHD_nnvb_analysis/nnvb_homographs.csv", "r", newline="", encoding='utf-8-sig') as f:
+            reader = csv.reader(f)
+            homographs = list(map(str.upper, itertools.chain.from_iterable(reader)))
+            print(homographs)
+            print(len(homographs))
+
+    with open(fpath + ".txt", "r") as f:
+        lines = f.readlines()
+
+    homograph_word_acc_counts = defaultdict(lambda:0)
+    homograph_phone_acc_counts = defaultdict(lambda:0)
+    homograph_stress_acc_counts = defaultdict(lambda:0)
+    homograph_syl_acc_counts = defaultdict(lambda:0)
+    homograph_count = defaultdict(lambda: 0)
+
+    refs = []
+    preds = []
+    for line in lines:
+        split_line = line.rstrip().split("|")
+        word, word_match, phone_match, stress_match, syl_match, ref, pred = split_line[0], split_line[1], split_line[2], split_line[3], split_line[4], split_line[-2], split_line[-1]
+        if word in homographs:
+            homograph_count[word] += 1
+            if word_match == "True":
+                homograph_word_acc_counts[word] += 1
+            if phone_match == "True":
+                homograph_phone_acc_counts[word] += 1
+            if stress_match == "True":
+                homograph_stress_acc_counts[word] += 1
+            if syl_match == "True":
+                homograph_syl_acc_counts[word] += 1
+            refs.append(ref)
+            preds.append(pred)
+
+    homograph_accs = defaultdict(list)
+    for homograph in homographs:
+        if homograph in homograph_count.keys():
+            count = homograph_count[homograph]
+            word_acc = homograph_word_acc_counts[homograph]/count
+            phone_acc = homograph_phone_acc_counts[homograph]/count
+            stress_acc = homograph_stress_acc_counts[homograph]/count
+            syl_acc = homograph_syl_acc_counts[homograph]/count
+            homograph_accs[homograph].append(word_acc)
+            homograph_accs[homograph].append(phone_acc)
+            homograph_accs[homograph].append(stress_acc)
+            homograph_accs[homograph].append(syl_acc)
+            homograph_accs[homograph].append(count)
+
+    if nnvb:
+        with open("WHD_nnvb_analysis/" + fpath[21:] + "NNVB.csv", "w") as f:
+            writer = csv.writer(f)
+            header = ["homograph", "word acc", "phone acc", "stress acc", "syl acc", "count"]
+            writer.writerow(header)
+            for key, value in homograph_accs.items():
+                word_acc, phone_acc, stress_acc, syl_acc, count = value[0], value[1], value[2], value[3], value[4]
+                writer.writerow([key, word_acc, phone_acc, stress_acc, syl_acc, count])
+    else:
+        with open(fpath + "_homograph_ACCs.csv", "w") as f:
+            writer = csv.writer(f)
+            header = ["homograph", "word acc", "phone acc", "stress acc", "syl acc", "count"]
+            writer.writerow(header)
+            for key, value in homograph_accs.items():
+                word_acc, phone_acc, stress_acc, syl_acc, count = value[0], value[1], value[2], value[3], value[4]
+                writer.writerow([key, word_acc, phone_acc, stress_acc, syl_acc, count])
+
+        assert len(refs) == len(preds)
+
+        with open(fpath + "_refs_preds.csv", "w") as f:
+            writer = csv.writer(f)
+            header = ["ref", "pred"]
+            writer.writerow(header)
+            for ref, pred in zip(refs, preds):
+                writer.writerow([ref, pred])
+
+
+# models = ["FE", "FE_POS", "FE_POS_MTL", "FE_DATA", "FE_POS_DATA", "FE_POS_MTL_DATA"]
+#
+# for model in models:
+#     get_iliv_ilov_homograph_accs(f"WHD_seq2seq_analysis/{model}/WHD_eval/in_lex_in_vocab",
+#                                  "clean_eval_homographs_NEW.txt", nnvb=False)
+#     # get_iliv_ilov_homograph_accs(f"WHD_seq2seq_analysis/{model}/WHD_eval/in_lex_out_vocab",
+#     #                              "clean_eval_homographs_NEW.txt", nnvb=False)
+#     print(model + " : done!")
+
+# get_iliv_ilov_homograph_accs(f"WHD_seq2seq_analysis/FE_POS_MTL_DATA/in_lex_in_vocab",
+#                                  "clean_eval_homographs_NEW.txt", nnvb=False)
+
+get_iliv_ilov_homograph_accs("WHD_seq2seq_analysis/FESTIVAL/WHD_eval/in_lex_out_vocab", "clean_eval_homographs_NEW.txt", nnvb=False)

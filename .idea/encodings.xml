@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/WHD_data/OOD.txt" charset="US-ASCII" />
-    <file url="file://$PROJECT_DIR$/WHD_data/OOD.txt" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/WHD_data/WHD_festival_pos.txt" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/WHD_nnvb_analysis/nn_vb_data.csv" charset="ISO-8859-1" />
   </component>
 </project>

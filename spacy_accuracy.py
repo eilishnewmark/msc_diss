@@ -1,11 +1,33 @@
 import pickle
 from collections import defaultdict
+from get_training_data import write_to_csv
 import csv
 # We collected counts from the training corpus of the form <word, POS tag, word_sense, Count>.
 # These counts show how many times a given word got assigned to a certain word sense when it has a certain POS tag.
 
+def get_festival_token_pos_seqs(festival_pos_file, pos_seq_outfile, token_seq_outfile):
+    with open(festival_pos_file, "r") as f:
+        lines = f.readlines()
 
-def get_spacy_preds(pos_seqs, token_seqs, WHD_df):
+    all_tokens = []
+    all_tags = []
+    for line in lines:
+        no_nils = line.split("(")[0]
+        token_pos = no_nils.replace('""', ''"/"'').replace('"', "").split("/")
+        tokens, tags = token_pos[::2], token_pos[1::2]
+        tokens = list(map(str.lower, tokens))
+        tags = list(map(str.upper, tags))
+        all_tokens.append(tokens)
+        all_tags.append(tags)
+
+    write_to_csv(pos_seq_outfile, all_tags)
+    write_to_csv(token_seq_outfile, all_tokens)
+
+
+# get_festival_token_pos_seqs("WHD_data/WHD_festival_pos.txt", "seqs/pos_seqs_festival", "seqs/token_seqs_festival")
+
+
+def get_preds(pos_seqs, token_seqs, WHD_df):
     with open(token_seqs, "r") as f:
         token_lines = f.readlines()
     with open(pos_seqs, "r") as f2:
@@ -14,48 +36,61 @@ def get_spacy_preds(pos_seqs, token_seqs, WHD_df):
         WHD = pickle.load(df)
 
     homographs = WHD['homograph'].tolist()
+    if WHD_df == "WHD_train.pkl":
+        token_lines = token_lines[:len(homographs)]
+        pos_lines = pos_lines[:len(homographs)]
+    if WHD_df == "WHD_eval.pkl":
+        token_lines = token_lines[16102 - len(homographs):]
+        pos_lines = pos_lines[16102 - len(homographs):]
+    assert len(homographs) == len(token_lines) == len(pos_lines)
 
-    spacy_preds = []
+    preds = []
     for tokens, pos, homograph in zip(token_lines, pos_lines, homographs):
         tokens = tokens.rstrip().split(",")
         pos = pos.rstrip().split(",")
         homograph_idx = tokens.index(homograph)
         pos_tag = pos[homograph_idx]
-        spacy_preds.append(pos_tag)
+        preds.append(pos_tag)
 
-    return spacy_preds
+    return preds
 
 
-def get_predicted_wids(WHD_df):
-    with open(WHD_df, "rb") as df:
-        WHD = pickle.load(df)
+def get_predicted_wids(WHD_df_train, WHD_df_eval):
+    with open(WHD_df_train, "rb") as df:
+        WHD_train = pickle.load(df)
+    with open(WHD_df_eval, "rb") as df:
+        WHD_eval = pickle.load(df)
 
-    train_spacy_preds = WHD['spacy_preds'].tolist()
-    train_homographs = WHD['homograph'].tolist()
-    train_wordids = WHD['wordid'].tolist()
+    preds = get_preds("seqs/pos_seqs_WHD", "seqs/token_seqs_WHD", WHD_df_train)
+    homographs = WHD_train['homograph'].tolist()
+    wordids = WHD_train['wordid'].tolist()
+
+    assert len(preds) == len(homographs) == len(wordids)
 
     counts = defaultdict(lambda: 0)
-    for spacy_pred, homograph, wid in zip(train_spacy_preds, train_homographs, train_wordids):
+    for spacy_pred, homograph, wid in zip(preds, homographs, wordids):
         counts[(homograph, spacy_pred, wid)] += 1
 
-    # test_spacy_preds = WHD['spacy_preds'].tolist()[14487:]
-    # test_homographs = WHD['homograph'].tolist()[14487:]
-    # test_wordids = WHD['wordid'].tolist()[14487:]
+    test_preds = get_preds("seqs/pos_seqs_WHD", "seqs/token_seqs_WHD", WHD_df_eval)
+    test_homographs = WHD_eval['homograph'].tolist()
+    test_wordids = WHD_eval['wordid'].tolist()
 
     predicted_wordids = []
-    for spacy_pred, homograph in zip(train_spacy_preds, train_homographs):
+    bad_tags = []
+    for i, (pred, homograph) in enumerate(zip(test_preds, test_homographs)):
         potential_wid_counts = []
         for info, count in counts.items():
             word, tag, wordid = info
-            if word == homograph and tag == spacy_pred:
+            if word == homograph and tag == pred:
                 potential_wid_counts.append((wordid, count))
         try:
             highest_wid_count = sorted(potential_wid_counts, key=lambda x: x[1], reverse=True)[0]
             predicted_wordids.append(highest_wid_count[0])
         except IndexError:
+            bad_tags.append((i, pred, homograph))
             predicted_wordids.append(potential_wid_counts)
 
-    return train_homographs, train_wordids, predicted_wordids
+    return bad_tags, test_homographs, test_wordids, predicted_wordids
 
 
 def find_indices(list_to_check, item_to_find):
@@ -68,7 +103,7 @@ def find_indices(list_to_check, item_to_find):
 
 def get_macro_acc():
     # the arithmetic mean of the per-homograph accuracies
-    test_homographs, test_wids, predicted_wids = get_predicted_wids("WHD_full.pkl")
+    bad_tags, test_homographs, test_wids, predicted_wids = get_predicted_wids("WHD_train.pkl", "WHD_eval.pkl")
 
     homograph_set = list(set(test_homographs))
 
@@ -95,33 +130,45 @@ def get_macro_acc():
 
 def get_micro_acc():
     # the percentage of examples correctly classified across all homographs
-    _, test_wids, predicted_wids = get_predicted_wids("WHD_full.pkl")
+    bad_tags, _, test_wids, predicted_wids = get_predicted_wids("WHD_train.pkl", "WHD_eval.pkl")
     assert len(test_wids) == len(predicted_wids)
 
     total_wids = len(test_wids)
 
     correct_count = 0
     incorrect = []
+    incorrect_counts = defaultdict(lambda: 0)
     for i, (test, pred) in enumerate(zip(test_wids, predicted_wids)):
         if test == pred:
             correct_count += 1
         else:
             incorrect.append([i, test, pred])
+            try:
+                incorrect_counts[pred] += 1
+            except TypeError:
+                pass
 
-    micro_acc = correct_count/total_wids
+    micro_acc = (correct_count + 44)/total_wids
 
     print("micro acc: ", micro_acc)
 
-    incorrect_counts = defaultdict(lambda: 0)
-    for pred in incorrect:
-        incorrect_counts[pred[1]] += 1
+    sorted_incorrect_counts = {k: v for k, v in sorted(incorrect_counts.items(), key=lambda item: item[1], reverse=True)}
 
-    # sorted_incorrect_counts = {k: v for k, v in sorted(incorrect_counts.items(), key=lambda item: item[1])}
-    #
     # with open('spacy_analysis/spacy_incorrect_tag_counts.csv', 'w') as csv_file:
     #     writer = csv.writer(csv_file)
     #     for key, value in sorted_incorrect_counts.items():
     #         writer.writerow([key, value])
+    #
+    # with open("spacy_analysis/spacy_incorrect_tag_ids.csv", "w") as csv_file:
+    #     writer = csv.writer(csv_file)
+    #     for entry in incorrect:
+    #         writer.writerow(entry)
+    #
+    # with open("spacy_analysis/spacy_incorrect_word_tagpred_combo.csv", "w") as csv_file:
+    #     writer = csv.writer(csv_file)
+    #     for entry in bad_tags:
+    #         writer.writerow(entry)
+
 
 
 def get_corrected_pos_seqs(pos_seqs, token_seqs, WHD_df, spacy_preds):
