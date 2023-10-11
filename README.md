@@ -8,6 +8,7 @@ For this, the WHD was also cleaned so that it could be entered to Festival witho
 Data was in the form:
 
  <img width="600" alt="Screenshot 2023-10-11 at 11 05 42" src="https://github.com/eilishnewmark/msc_diss/assets/116748480/9a44d0df-7d5c-4dd2-8e32-a43365c7f5e1">
+
 with added POS tags:
 VBD VBD VDB VDB VDB VDB # VBP VBP VBP # DT DT DT # JJ JJ JJ JJ JJ JJ # NN NN NN NN NN NN #
 
